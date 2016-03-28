@@ -9,6 +9,8 @@
 
 import UIKit
 import Parse
+import CoreData
+
 
 class ViewController: UIViewController {
 
