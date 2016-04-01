@@ -85,7 +85,7 @@ class ViewController: UIViewController {
                 if error == nil {
                     //signup succesful 
                     
-                    
+                    self.performSegueWithIdentifier("login", sender: self)
                     
                     
                 } else {
@@ -115,6 +115,11 @@ class ViewController: UIViewController {
                     if user != nil {
                         
                         //logged in!
+                        dispatch_async(dispatch_get_main_queue()) {
+                            [unowned self] in
+                            self.performSegueWithIdentifier("login", sender: self)
+                        }
+                        
                         
                     }else {
                         
@@ -169,6 +174,42 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        //Username Image in textfield username
+        var imageView = UIImageView();
+        
+        var image = UIImage(named: "Contacts Filled-50.png");
+        
+        imageView.image = image;
+        
+        username.leftView = imageView;
+        
+        username.leftViewMode = UITextFieldViewMode.Always
+        
+        imageView.alpha = 0.1
+        
+        imageView.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
+        view.addSubview(imageView)
+        
+        
+        
+        //Password image in textfield password
+        var imageViewTwo = UIImageView();
+        
+        var imageTwo = UIImage(named: "Lock Filled-50.png");
+        
+        imageViewTwo.image = imageTwo;
+        
+        password.leftView = imageViewTwo;
+        
+        password.leftViewMode = UITextFieldViewMode.Always
+        
+        imageViewTwo.alpha = 0.1
+        
+        imageViewTwo.frame = CGRect(x: 0, y: 0, width: 20, height: 20)
+        view.addSubview(imageViewTwo)
+        
+        
         
         }
 
