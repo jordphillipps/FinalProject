@@ -21,6 +21,9 @@
 		D102AEDC1CAD84DE00F9D101 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D102AEDB1CAD84DE00F9D101 /* ViewController1.swift */; settings = {ASSET_TAGS = (); }; };
 		D102AEDE1CAD84F100F9D101 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D102AEDD1CAD84F100F9D101 /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
 		D102AEE01CAD850400F9D101 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D102AEDF1CAD850400F9D101 /* ViewController3.swift */; settings = {ASSET_TAGS = (); }; };
+		D126F5241CAFD86300CF0F03 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D126F5231CAFD86300CF0F03 /* ViewController4.swift */; settings = {ASSET_TAGS = (); }; };
+		D126F5261CAFD87200CF0F03 /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D126F5251CAFD87200CF0F03 /* ViewController5.swift */; settings = {ASSET_TAGS = (); }; };
+		D131932C1CAF0D39003B2064 /* Menu Filled-20.png in Resources */ = {isa = PBXBuildFile; fileRef = D131932B1CAF0D39003B2064 /* Menu Filled-20.png */; settings = {ASSET_TAGS = (); }; };
 		D17AB09D1CAC03D300F7B161 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17AB09C1CAC03D300F7B161 /* header.jpg */; settings = {ASSET_TAGS = (); }; };
 		D17AB09F1CAC07CD00F7B161 /* Contacts Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D17AB09E1CAC07CD00F7B161 /* Contacts Filled-50.png */; settings = {ASSET_TAGS = (); }; };
 		D17AB0A11CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17AB0A01CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -51,6 +54,9 @@
 		D102AEDB1CAD84DE00F9D101 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController1.swift; path = ../ViewController1.swift; sourceTree = "<group>"; };
 		D102AEDD1CAD84F100F9D101 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = ../ViewController2.swift; sourceTree = "<group>"; };
 		D102AEDF1CAD850400F9D101 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController3.swift; path = ../ViewController3.swift; sourceTree = "<group>"; };
+		D126F5231CAFD86300CF0F03 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		D126F5251CAFD87200CF0F03 /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		D131932B1CAF0D39003B2064 /* Menu Filled-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu Filled-20.png"; sourceTree = "<group>"; };
 		D17AB09C1CAC03D300F7B161 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
 		D17AB09E1CAC07CD00F7B161 /* Contacts Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contacts Filled-50.png"; sourceTree = "<group>"; };
 		D17AB0A01CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smart_phone_RGB_large.jpg; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 				D17AB09E1CAC07CD00F7B161 /* Contacts Filled-50.png */,
 				D17AB0A01CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg */,
 				D1891A8D1CAC7719000AC19B /* Lock Filled-50.png */,
+				D131932B1CAF0D39003B2064 /* Menu Filled-20.png */,
 				D1891A8B1CAC7656000AC19B /* Key Filled-50.png */,
 				814C3AC91B69877600E307BB /* Info.plist */,
 			);
@@ -120,6 +127,8 @@
 				D102AEDB1CAD84DE00F9D101 /* ViewController1.swift */,
 				D102AEDD1CAD84F100F9D101 /* ViewController2.swift */,
 				D102AEDF1CAD850400F9D101 /* ViewController3.swift */,
+				D126F5231CAFD86300CF0F03 /* ViewController4.swift */,
+				D126F5251CAFD87200CF0F03 /* ViewController5.swift */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
 				D1C560591CAB13D8000B8422 /* Street Corner.ttf */,
 				D1C5605B1CAB1BD9000B8422 /* KGSmallTownSouthernGirl.ttf */,
@@ -215,6 +224,7 @@
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
 				D17AB09D1CAC03D300F7B161 /* header.jpg in Resources */,
 				D17AB09F1CAC07CD00F7B161 /* Contacts Filled-50.png in Resources */,
+				D131932C1CAF0D39003B2064 /* Menu Filled-20.png in Resources */,
 				D1C5605A1CAB13D8000B8422 /* Street Corner.ttf in Resources */,
 				D1891A8C1CAC7656000AC19B /* Key Filled-50.png in Resources */,
 			);
@@ -228,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D102AEDE1CAD84F100F9D101 /* ViewController2.swift in Sources */,
+				D126F5241CAFD86300CF0F03 /* ViewController4.swift in Sources */,
 				D102AEDC1CAD84DE00F9D101 /* ViewController1.swift in Sources */,
 				D102AEE01CAD850400F9D101 /* ViewController3.swift in Sources */,
+				D126F5261CAFD87200CF0F03 /* ViewController5.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
 				D102AED21CAD7D8600F9D101 /* SWRevealViewController.m in Sources */,
