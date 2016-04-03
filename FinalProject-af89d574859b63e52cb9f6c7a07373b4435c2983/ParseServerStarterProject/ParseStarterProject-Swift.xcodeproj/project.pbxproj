@@ -29,8 +29,8 @@
 		D17AB0A11CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D17AB0A01CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg */; settings = {ASSET_TAGS = (); }; };
 		D1891A8C1CAC7656000AC19B /* Key Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D1891A8B1CAC7656000AC19B /* Key Filled-50.png */; settings = {ASSET_TAGS = (); }; };
 		D1891A8E1CAC7719000AC19B /* Lock Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = D1891A8D1CAC7719000AC19B /* Lock Filled-50.png */; settings = {ASSET_TAGS = (); }; };
-		D1C5605A1CAB13D8000B8422 /* Street Corner.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1C560591CAB13D8000B8422 /* Street Corner.ttf */; settings = {ASSET_TAGS = (); }; };
-		D1C5605C1CAB1BD9000B8422 /* KGSmallTownSouthernGirl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1C5605B1CAB1BD9000B8422 /* KGSmallTownSouthernGirl.ttf */; settings = {ASSET_TAGS = (); }; };
+		D1CC85DC1CB17315008425FA /* KGSmallTownSouthernGirl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1CC85DB1CB17315008425FA /* KGSmallTownSouthernGirl.ttf */; settings = {ASSET_TAGS = (); }; };
+		D1CC85DE1CB17330008425FA /* Street Corner.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1CC85DD1CB17330008425FA /* Street Corner.ttf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,8 +62,8 @@
 		D17AB0A01CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smart_phone_RGB_large.jpg; sourceTree = "<group>"; };
 		D1891A8B1CAC7656000AC19B /* Key Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Key Filled-50.png"; sourceTree = "<group>"; };
 		D1891A8D1CAC7719000AC19B /* Lock Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lock Filled-50.png"; sourceTree = "<group>"; };
-		D1C560591CAB13D8000B8422 /* Street Corner.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Street Corner.ttf"; path = "../../../../../Downloads/street_corner/Street Corner.ttf"; sourceTree = "<group>"; };
-		D1C5605B1CAB1BD9000B8422 /* KGSmallTownSouthernGirl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = KGSmallTownSouthernGirl.ttf; path = ../../../../../Downloads/kg_small_town_southern_girl/KGSmallTownSouthernGirl.ttf; sourceTree = "<group>"; };
+		D1CC85DB1CB17315008425FA /* KGSmallTownSouthernGirl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KGSmallTownSouthernGirl.ttf; sourceTree = "<group>"; };
+		D1CC85DD1CB17330008425FA /* Street Corner.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Street Corner.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +130,8 @@
 				D126F5231CAFD86300CF0F03 /* ViewController4.swift */,
 				D126F5251CAFD87200CF0F03 /* ViewController5.swift */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
-				D1C560591CAB13D8000B8422 /* Street Corner.ttf */,
-				D1C5605B1CAB1BD9000B8422 /* KGSmallTownSouthernGirl.ttf */,
+				D1CC85DD1CB17330008425FA /* Street Corner.ttf */,
+				D1CC85DB1CB17315008425FA /* KGSmallTownSouthernGirl.ttf */,
 			);
 			path = ParseStarterProject;
 			sourceTree = "<group>";
@@ -218,14 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D17AB0A11CAC0DAB00F7B161 /* smart_phone_RGB_large.jpg in Resources */,
-				D1C5605C1CAB1BD9000B8422 /* KGSmallTownSouthernGirl.ttf in Resources */,
 				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
 				D1891A8E1CAC7719000AC19B /* Lock Filled-50.png in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
 				D17AB09D1CAC03D300F7B161 /* header.jpg in Resources */,
 				D17AB09F1CAC07CD00F7B161 /* Contacts Filled-50.png in Resources */,
+				D1CC85DC1CB17315008425FA /* KGSmallTownSouthernGirl.ttf in Resources */,
+				D1CC85DE1CB17330008425FA /* Street Corner.ttf in Resources */,
 				D131932C1CAF0D39003B2064 /* Menu Filled-20.png in Resources */,
-				D1C5605A1CAB13D8000B8422 /* Street Corner.ttf in Resources */,
 				D1891A8C1CAC7656000AC19B /* Key Filled-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
