@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D167671E1CB3F9D90054650D /* ViewControllerMood.swift in Sources */ = {isa = PBXBuildFile; fileRef = D167671D1CB3F9D90054650D /* ViewControllerMood.swift */; settings = {ASSET_TAGS = (); }; };
 		D1BA1A991CB2BED80033F32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A981CB2BED80033F32C /* AppDelegate.swift */; };
 		D1BA1A9E1CB2BED80033F32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1A9C1CB2BED80033F32C /* Main.storyboard */; };
 		D1BA1AA11CB2BED80033F32C /* FinalProjectApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A9F1CB2BED80033F32C /* FinalProjectApp.xcdatamodeld */; };
@@ -52,6 +53,7 @@
 		D1BA1B141CB2C67E0033F32C /* startRecordSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1B131CB2C67E0033F32C /* startRecordSound.m4a */; settings = {ASSET_TAGS = (); }; };
 		D1BA1B161CB2C8C70033F32C /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1B151CB2C8C70033F32C /* NewNoteViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D1BA1B1A1CB2CC0C0033F32C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1B181CB2CC0C0033F32C /* Note.swift */; settings = {ASSET_TAGS = (); }; };
+		D1BA1B1C1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1B1B1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D167671D1CB3F9D90054650D /* ViewControllerMood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMood.swift; sourceTree = "<group>"; };
 		D1BA1A951CB2BED80033F32C /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA1A981CB2BED80033F32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1BA1A9D1CB2BED80033F32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -125,6 +128,7 @@
 		D1BA1B131CB2C67E0033F32C /* startRecordSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = startRecordSound.m4a; sourceTree = "<group>"; };
 		D1BA1B151CB2C8C70033F32C /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 		D1BA1B181CB2CC0C0033F32C /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		D1BA1B1B1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Microphone_Blue_on_yellow_RGB_small.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,9 +215,10 @@
 				D1BA1AEF1CB2C0FB0033F32C /* ViewController3.swift */,
 				D1BA1AF01CB2C0FB0033F32C /* ViewController4.swift */,
 				D1BA1AF11CB2C0FB0033F32C /* ViewController5.swift */,
+				D1BA1AA21CB2BED80033F32C /* Assets.xcassets */,
+				D167671D1CB3F9D90054650D /* ViewControllerMood.swift */,
 				D1BA1A9C1CB2BED80033F32C /* Main.storyboard */,
 				D1BA1B151CB2C8C70033F32C /* NewNoteViewController.swift */,
-				D1BA1AA21CB2BED80033F32C /* Assets.xcassets */,
 				D1BA1AA41CB2BED80033F32C /* LaunchScreen.storyboard */,
 				D1BA1AA71CB2BED80033F32C /* Info.plist */,
 				D1BA1A9F1CB2BED80033F32C /* FinalProjectApp.xcdatamodeld */,
@@ -266,12 +271,13 @@
 				D1BA1AFB1CB2C1140033F32C /* Lock Filled-50.png */,
 				D1BA1AFC1CB2C1140033F32C /* Menu Filled-20.png */,
 				D1BA1AFD1CB2C1140033F32C /* Key Filled-50.png */,
-				D1BA1B041CB2C11E0033F32C /* Street Corner.ttf */,
-				D1BA1B051CB2C11E0033F32C /* KGSmallTownSouthernGirl.ttf */,
 				D1BA1B0D1CB2C6740033F32C /* microphone.png */,
 				D1BA1B0E1CB2C6740033F32C /* microphoneDepressed.png */,
 				D1BA1B0F1CB2C6740033F32C /* shattered_@2X.png */,
+				D1BA1B1B1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg */,
 				D1BA1B131CB2C67E0033F32C /* startRecordSound.m4a */,
+				D1BA1B041CB2C11E0033F32C /* Street Corner.ttf */,
+				D1BA1B051CB2C11E0033F32C /* KGSmallTownSouthernGirl.ttf */,
 			);
 			name = Resources;
 			path = ..;
@@ -391,6 +397,7 @@
 				D1BA1AA31CB2BED80033F32C /* Assets.xcassets in Resources */,
 				D1BA1AFE1CB2C1140033F32C /* header.jpg in Resources */,
 				D1BA1B071CB2C11E0033F32C /* KGSmallTownSouthernGirl.ttf in Resources */,
+				D1BA1B1C1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg in Resources */,
 				D1BA1B011CB2C1140033F32C /* Lock Filled-50.png in Resources */,
 				D1BA1B101CB2C6740033F32C /* microphone.png in Resources */,
 				D1BA1B001CB2C1140033F32C /* smart_phone_RGB_large.jpg in Resources */,
@@ -421,6 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BA1AF41CB2C0FB0033F32C /* ViewController2.swift in Sources */,
+				D167671E1CB3F9D90054650D /* ViewControllerMood.swift in Sources */,
 				D1BA1AF61CB2C0FB0033F32C /* ViewController4.swift in Sources */,
 				D1BA1AF31CB2C0FB0033F32C /* ViewController1.swift in Sources */,
 				D1BA1AF51CB2C0FB0033F32C /* ViewController3.swift in Sources */,

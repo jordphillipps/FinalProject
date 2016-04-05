@@ -8,9 +8,14 @@
 
 import UIKit
 
-class ViewController4: UIViewController {
+var Score = [String]()
+
+
+
+class ViewController4: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    @IBOutlet var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +23,14 @@ class ViewController4: UIViewController {
             menuButton.target = revealViewController()
             menuButton.action = "revealToggle:"
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+            
+            self.tableView.dataSource = self
+            self.tableView.delegate = self
+            
+            if NSUserDefaults.standardUserDefaults().objectForKey("Score") != nil {
+                Score = NSUserDefaults.standardUserDefaults().objectForKey("Score") as! [String]
+            }
+            
             
         }
         // Do any additional setup after loading the view.
@@ -27,15 +40,20 @@ class ViewController4: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return Score.count
     }
-    */
-
+   
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        let cell = UITableViewCell()
+        cell.textLabel!.text = Score[indexPath.row]
+        return cell
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        tableView.reloadData()
+    }
+    
 }

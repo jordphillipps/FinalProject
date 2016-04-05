@@ -38,8 +38,8 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Street Corner.tff</string>
-		<string>KGSmallTownSouthernGirl.tff</string>
+		<string>Street Corner.ttf</string>
+		<string>KGSmallTownSouthernGirl.ttf</string>
 	</array>
 </dict>
 </plist>

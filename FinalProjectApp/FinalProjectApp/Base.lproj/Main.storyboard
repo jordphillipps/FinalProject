@@ -13,8 +13,39 @@
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
         </mutableArray>
         <mutableArray key="Street Corner.ttf">
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
@@ -280,7 +311,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Blog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ojh-Lv-4xb">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Mood Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ojh-Lv-4xb">
                                                     <rect key="frame" x="15" y="0.0" width="345" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -370,18 +401,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uPr-vC-ihK">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uPr-vC-ihK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="uPr-vC-ihK" firstAttribute="leading" secondItem="K57-PT-6yu" secondAttribute="leadingMargin" constant="-20" id="2mB-qd-adL"/>
-                            <constraint firstItem="uPr-vC-ihK" firstAttribute="centerX" secondItem="K57-PT-6yu" secondAttribute="centerX" id="SEk-WG-eGG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uPr-vC-ihK" secondAttribute="trailing" constant="-20" id="XCb-Ot-JyX"/>
-                            <constraint firstItem="nqb-D2-Jwf" firstAttribute="top" secondItem="uPr-vC-ihK" secondAttribute="bottom" id="o8c-Nd-2wt"/>
-                            <constraint firstItem="uPr-vC-ihK" firstAttribute="top" secondItem="NPr-Ou-MtR" secondAttribute="bottom" id="yVN-6F-Jgw"/>
+                            <constraint firstItem="nqb-D2-Jwf" firstAttribute="top" secondItem="uPr-vC-ihK" secondAttribute="bottom" id="DQR-LW-cPj"/>
+                            <constraint firstItem="uPr-vC-ihK" firstAttribute="leading" secondItem="K57-PT-6yu" secondAttribute="leading" id="JhY-OD-P9y"/>
+                            <constraint firstItem="uPr-vC-ihK" firstAttribute="top" secondItem="K57-PT-6yu" secondAttribute="top" id="Jkw-wz-Tsx"/>
+                            <constraint firstAttribute="trailing" secondItem="uPr-vC-ihK" secondAttribute="trailing" id="ihu-HR-RA4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Journal" id="HCB-5N-IdJ">
@@ -417,16 +448,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fFF-Zq-gHc">
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fFF-Zq-gHc">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="16"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Record Note" id="3gc-NF-AvY">
                                         <barButtonItem key="leftBarButtonItem" title="Item" systemItem="cancel" id="V0e-0T-xc9">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <action selector="cancel:" destination="jNd-2p-z9L" id="Db2-Pd-FGb"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="save" id="isQ-8s-o9N">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" systemItem="save" id="isQ-8s-o9N">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <action selector="save:" destination="jNd-2p-z9L" id="kRr-HW-EkA"/>
                                             </connections>
@@ -447,7 +485,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.80890960539928403" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fFF-Zq-gHc" firstAttribute="top" secondItem="ZrX-z5-Vja" secondAttribute="bottom" id="2yP-UL-fxn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fFF-Zq-gHc" secondAttribute="trailing" constant="-20" id="FIr-E6-gJS"/>
+                            <constraint firstItem="fFF-Zq-gHc" firstAttribute="centerX" secondItem="Nh1-Ea-6II" secondAttribute="centerX" id="TZt-Hn-qkJ"/>
+                            <constraint firstItem="fFF-Zq-gHc" firstAttribute="leading" secondItem="Nh1-Ea-6II" secondAttribute="leadingMargin" constant="-20" id="Twy-JV-6Bq"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -459,7 +503,7 @@
             </objects>
             <point key="canvasLocation" x="2436.5" y="487.5"/>
         </scene>
-        <!--Blog-->
+        <!--Mood Rating-->
         <scene sceneID="J3l-WG-zxD">
             <objects>
                 <viewController id="wYP-D2-Qwn" customClass="ViewController4" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -470,21 +514,587 @@
                     <view key="view" contentMode="scaleToFill" id="Z6n-2P-g0c">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hv1-QJ-8MX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hv1-QJ-8MX" firstAttribute="leading" secondItem="Z6n-2P-g0c" secondAttribute="leading" id="7cc-Bh-hV6"/>
+                            <constraint firstItem="hv1-QJ-8MX" firstAttribute="top" secondItem="Z6n-2P-g0c" secondAttribute="top" id="T5f-vr-fm1"/>
+                            <constraint firstAttribute="trailing" secondItem="hv1-QJ-8MX" secondAttribute="trailing" id="hKC-vB-4Wp"/>
+                            <constraint firstItem="vi2-bo-g3s" firstAttribute="top" secondItem="hv1-QJ-8MX" secondAttribute="bottom" id="v0l-6S-1GB"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Blog" id="UCu-0k-yt7">
+                    <navigationItem key="navigationItem" title="Mood Rating" id="UCu-0k-yt7">
                         <barButtonItem key="leftBarButtonItem" image="Menu Filled-20.png" id="jKz-nL-HKD">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="yVV-vp-dyb">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="y2i-Pn-2Bc" kind="presentation" id="toF-BJ-UTV"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="menuButton" destination="jKz-nL-HKD" id="2qi-K7-cDS"/>
+                        <outlet property="tableView" destination="hv1-QJ-8MX" id="xev-Dc-nwZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQu-xT-3cn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1943.5" y="1248.5"/>
+        </scene>
+        <!--New Mood Rating-->
+        <scene sceneID="gCr-aK-r1c">
+            <objects>
+                <viewController id="nSK-Hw-Nmk" customClass="ViewControllerMood" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FlL-tf-eTH"/>
+                        <viewControllerLayoutGuide type="bottom" id="UaJ-he-qZz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="n1H-Qd-b3Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J1K-28-qgi">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1700"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kvl-wG-n8S">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mental Well Being Scale" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhm-8D-iHb">
+                                                <rect key="frame" x="8" y="45" width="359" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="359" id="vbT-Tx-G6y"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="22"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling optimistic about the future" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuO-2c-ykt">
+                                                <rect key="frame" x="23" y="88" width="330" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="PiB-lK-eAB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecr-Fq-vyT">
+                                                <rect key="frame" x="182" y="112" width="10" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="10" id="r9n-af-T8U"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="cRm-w5-ES1">
+                                                <rect key="frame" x="21" y="140" width="334" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="GMT-yd-BkO"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="sliderQ1Value:" destination="nSK-Hw-Nmk" eventType="valueChanged" id="P6X-JK-ESK"/>
+                                                </connections>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling useful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iet-FO-85c">
+                                                <rect key="frame" x="23" y="178" width="330" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="iX2-R2-FT0"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JsS-Aa-j30">
+                                                <rect key="frame" x="184" y="389" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="b14-Rg-bDf"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="wHS-i3-lNb">
+                                                <rect key="frame" x="21" y="231" width="334" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="ZAe-zC-FB0"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling relaxed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mb1-iN-0Dc">
+                                                <rect key="frame" x="22" y="269" width="330" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="R8x-Yn-6ML"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6N8-nf-KeA">
+                                                <rect key="frame" x="184" y="298" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="cZL-Hv-kRH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Q6R-cs-aVg">
+                                                <rect key="frame" x="21" y="322" width="334" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="fpH-Nt-sb7"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling interested in other people" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJS-O8-Xi8">
+                                                <rect key="frame" x="23" y="360" width="330" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="hqU-vv-d1E"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLd-It-Hzd">
+                                                <rect key="frame" x="184" y="207" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="LmD-Jm-IIt"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="fCs-1q-vAb">
+                                                <rect key="frame" x="21" y="413" width="334" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="Vln-cP-g7O"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've had spare energy " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCS-5W-g5y">
+                                                <rect key="frame" x="116" y="451" width="143" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="143" id="KRU-8B-kzs"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0l-3a-NMu">
+                                                <rect key="frame" x="182" y="480" width="10" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="10" id="bgd-Zq-6E7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="aCw-3u-N8G">
+                                                <rect key="frame" x="21" y="509" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="6D8-0w-mWV"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been dealing with problems well" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xfA-YA-2R9">
+                                                <rect key="frame" x="73" y="547" width="230" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="230" id="75i-Gt-lAV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVb-Rs-ZFq">
+                                                <rect key="frame" x="184" y="576" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="YUX-iM-lmr"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="2nd-Ug-ThI">
+                                                <rect key="frame" x="21" y="600" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="g77-3u-ZG9"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been thinking clearly" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaM-fg-bUq">
+                                                <rect key="frame" x="110" y="638" width="156" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="156" id="9Sr-CQ-F0B"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ico-3c-XFj">
+                                                <rect key="frame" x="184" y="667" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="MSb-t6-CwI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="pWg-Ok-gci">
+                                                <rect key="frame" x="21" y="691" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="Gw5-FZ-ryd"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling good about myself" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc7-wH-ppn">
+                                                <rect key="frame" x="75" y="729" width="225" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="225" id="XtU-Zf-UIb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0K-5s-Z83">
+                                                <rect key="frame" x="184" y="758" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="l0n-GP-btF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling closer to other people" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38S-6b-eZU">
+                                                <rect key="frame" x="64" y="820" width="247" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="247" id="Ifc-Jd-zbx"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="XrG-1x-NaI">
+                                                <rect key="frame" x="21" y="782" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="Dv3-dM-oRm"/>
+                                                </constraints>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="zkS-le-5Hf">
+                                                <rect key="frame" x="21" y="872" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="cKL-21-A8f"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MN-1v-BPQ">
+                                                <rect key="frame" x="184" y="849" width="8" height="15"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="Atb-Hu-1bW"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="13"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling confident" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RD-hx-dEv">
+                                                <rect key="frame" x="105" y="910" width="165" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="165" id="NeX-yi-D6Q"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJJ-Ao-iN2">
+                                                <rect key="frame" x="184" y="939" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="wPF-ig-bjB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="fmV-I1-DuI">
+                                                <rect key="frame" x="21" y="963" width="334" height="31"/>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been able to make up my mind about things" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WeP-7j-yuA">
+                                                <rect key="frame" x="36" y="1001" width="303" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="303" id="6r4-ld-pow"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cpg-d9-kBH">
+                                                <rect key="frame" x="182" y="1030" width="10" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="10" id="Sno-Cw-42f"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Kuu-Uv-8R3">
+                                                <rect key="frame" x="21" y="1059" width="334" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="330" id="WkO-bR-Wux"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling loved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ab-Oy-KHF">
+                                                <rect key="frame" x="116" y="1097" width="141" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="141" id="Oq3-N4-slm"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIX-Ps-fam">
+                                                <rect key="frame" x="184" y="1126" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="Mmb-vg-X9n"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="pwc-SP-vBe">
+                                                <rect key="frame" x="21" y="1150" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="qC6-9N-CQl"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been interested in new things" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jz-z3-zwa">
+                                                <rect key="frame" x="58" y="1188" width="257" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="257" id="ibZ-IU-nLN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt3-q8-JBu">
+                                                <rect key="frame" x="184" y="1217" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="tHR-pp-J80"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Opd-JW-SK8">
+                                                <rect key="frame" x="21" y="1241" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="Gs2-K3-lEI"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="I've been feeling cheerful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PM2-4r-TEx">
+                                                <rect key="frame" x="108" y="1279" width="159" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="159" id="H8O-gR-z7x"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2O-Xw-SuZ">
+                                                <rect key="frame" x="184" y="1308" width="8" height="16"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="8" id="ez6-Qg-15f"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="w9t-6k-hI6">
+                                                <rect key="frame" x="21" y="1332" width="333" height="31"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="329" id="4DZ-7v-nHt"/>
+                                                </constraints>
+                                            </slider>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your mood rating is" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K81-Hs-iVX">
+                                                <rect key="frame" x="113" y="1413" width="151" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="151" id="ipI-Vj-yVk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbv-m0-est">
+                                                <rect key="frame" x="163" y="1442" width="50" height="61"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="Bo7-o2-3rn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="41"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="2nd-Ug-ThI" secondAttribute="trailing" constant="15" id="0A8-lW-tgh"/>
+                                            <constraint firstItem="6N8-nf-KeA" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="0SR-EH-AuG"/>
+                                            <constraint firstItem="O2O-Xw-SuZ" firstAttribute="top" secondItem="PM2-4r-TEx" secondAttribute="bottom" constant="8" id="1T6-nF-ukc"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="zkS-le-5Hf" secondAttribute="trailing" constant="15" id="2MD-Ze-Jbu"/>
+                                            <constraint firstItem="BaM-fg-bUq" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="2r7-e8-Mz9"/>
+                                            <constraint firstItem="aCw-3u-N8G" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="3CN-Ko-tVg"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="aCw-3u-N8G" secondAttribute="trailing" constant="15" id="450-Oz-r7M"/>
+                                            <constraint firstItem="J0K-5s-Z83" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="4fP-xg-KFg"/>
+                                            <constraint firstItem="5RD-hx-dEv" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="6Kw-Up-hDs"/>
+                                            <constraint firstItem="J0K-5s-Z83" firstAttribute="top" secondItem="Gc7-wH-ppn" secondAttribute="bottom" constant="8" id="6oT-82-DqY"/>
+                                            <constraint firstItem="3ab-Oy-KHF" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="7G7-Uk-VlL"/>
+                                            <constraint firstItem="Q6R-cs-aVg" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="8lg-n5-xWm"/>
+                                            <constraint firstItem="XrG-1x-NaI" firstAttribute="top" secondItem="J0K-5s-Z83" secondAttribute="bottom" constant="8" id="8rY-YL-8lS"/>
+                                            <constraint firstItem="cRm-w5-ES1" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="9Ku-S0-Q4f"/>
+                                            <constraint firstItem="xbv-m0-est" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="9ca-V4-agG"/>
+                                            <constraint firstItem="Iet-FO-85c" firstAttribute="top" secondItem="cRm-w5-ES1" secondAttribute="bottom" constant="8" id="9vQ-Cw-puz"/>
+                                            <constraint firstItem="Q6R-cs-aVg" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="9yl-Bh-NaU"/>
+                                            <constraint firstItem="K81-Hs-iVX" firstAttribute="top" secondItem="w9t-6k-hI6" secondAttribute="bottom" constant="51" id="AIx-U4-2iW"/>
+                                            <constraint firstItem="aCw-3u-N8G" firstAttribute="top" secondItem="s0l-3a-NMu" secondAttribute="bottom" constant="8" id="BfH-Rj-3i1"/>
+                                            <constraint firstItem="Opd-JW-SK8" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="C7R-8j-AKC"/>
+                                            <constraint firstItem="GVb-Rs-ZFq" firstAttribute="top" secondItem="xfA-YA-2R9" secondAttribute="bottom" constant="8" id="CCI-gW-vK7"/>
+                                            <constraint firstItem="Ecr-Fq-vyT" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="CU8-OT-e8c"/>
+                                            <constraint firstItem="38S-6b-eZU" firstAttribute="top" secondItem="XrG-1x-NaI" secondAttribute="bottom" constant="8" id="Cqh-b1-hAn"/>
+                                            <constraint firstItem="xfA-YA-2R9" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="DhM-pc-WBH"/>
+                                            <constraint firstItem="JsS-Aa-j30" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="Et5-wp-hFO"/>
+                                            <constraint firstItem="wHS-i3-lNb" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="Fcg-uV-8gH"/>
+                                            <constraint firstItem="fmV-I1-DuI" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="Fz2-bP-a6K"/>
+                                            <constraint firstItem="bLd-It-Hzd" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="GVf-oi-HVW"/>
+                                            <constraint firstItem="fCs-1q-vAb" firstAttribute="top" secondItem="JsS-Aa-j30" secondAttribute="bottom" constant="8" id="GVx-5m-IwL"/>
+                                            <constraint firstItem="xbv-m0-est" firstAttribute="top" secondItem="K81-Hs-iVX" secondAttribute="bottom" constant="8" id="Gse-oc-4Mi"/>
+                                            <constraint firstItem="wHS-i3-lNb" firstAttribute="top" secondItem="bLd-It-Hzd" secondAttribute="bottom" constant="8" id="GuB-Te-olg"/>
+                                            <constraint firstItem="Iet-FO-85c" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="HHe-ag-zOP"/>
+                                            <constraint firstItem="JsS-Aa-j30" firstAttribute="top" secondItem="IJS-O8-Xi8" secondAttribute="bottom" constant="8" id="HML-UC-ka1"/>
+                                            <constraint firstItem="Kuu-Uv-8R3" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="Hkj-sB-b9p"/>
+                                            <constraint firstItem="pWg-Ok-gci" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="Hsk-RV-5Ga"/>
+                                            <constraint firstItem="6N8-nf-KeA" firstAttribute="top" secondItem="Mb1-iN-0Dc" secondAttribute="bottom" constant="8" id="I1R-Tw-o2n"/>
+                                            <constraint firstItem="fuO-2c-ykt" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="Ib9-2u-c4W"/>
+                                            <constraint firstItem="Mb1-iN-0Dc" firstAttribute="top" secondItem="wHS-i3-lNb" secondAttribute="bottom" constant="8" id="KU4-Re-E9N"/>
+                                            <constraint firstItem="WeP-7j-yuA" firstAttribute="top" secondItem="fmV-I1-DuI" secondAttribute="bottom" constant="8" id="MNC-dF-jWX"/>
+                                            <constraint firstItem="XrG-1x-NaI" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="OOz-2G-eT5"/>
+                                            <constraint firstItem="XrG-1x-NaI" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="OZR-lg-I6Z"/>
+                                            <constraint firstItem="2nd-Ug-ThI" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="OeI-0G-UUq"/>
+                                            <constraint firstItem="s0l-3a-NMu" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="Ozq-iz-7Al"/>
+                                            <constraint firstItem="K81-Hs-iVX" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="PWq-Qb-Ynz"/>
+                                            <constraint firstItem="Mb1-iN-0Dc" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="Ptm-7A-YJM"/>
+                                            <constraint firstItem="Hhm-8D-iHb" firstAttribute="trailing" secondItem="Kvl-wG-n8S" secondAttribute="trailingMargin" id="QRv-fr-i5K"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="pwc-SP-vBe" secondAttribute="trailing" constant="15" id="Qdc-GG-2px"/>
+                                            <constraint firstItem="WCS-5W-g5y" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="QwO-S8-TV4"/>
+                                            <constraint firstItem="GVb-Rs-ZFq" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="RH9-Ud-GUc"/>
+                                            <constraint firstItem="IJS-O8-Xi8" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="RZv-4w-Jlj"/>
+                                            <constraint firstItem="wHS-i3-lNb" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="Rej-Ck-ieb"/>
+                                            <constraint firstItem="zkS-le-5Hf" firstAttribute="top" secondItem="6MN-1v-BPQ" secondAttribute="bottom" constant="8" id="SqG-wm-Lol"/>
+                                            <constraint firstItem="ico-3c-XFj" firstAttribute="top" secondItem="BaM-fg-bUq" secondAttribute="bottom" constant="8" id="SvX-Ie-Yy6"/>
+                                            <constraint firstItem="Opd-JW-SK8" firstAttribute="top" secondItem="gt3-q8-JBu" secondAttribute="bottom" constant="8" id="T7S-Vj-zPU"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="pWg-Ok-gci" secondAttribute="trailing" constant="15" id="THR-oI-xhx"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="XrG-1x-NaI" secondAttribute="trailing" constant="15" id="UOC-nA-YCt"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="wHS-i3-lNb" secondAttribute="trailing" constant="14" id="UhH-3r-3MA"/>
+                                            <constraint firstItem="zkS-le-5Hf" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="VGx-q2-opP"/>
+                                            <constraint firstItem="Kuu-Uv-8R3" firstAttribute="top" secondItem="Cpg-d9-kBH" secondAttribute="bottom" constant="8" id="Vh9-Om-UIo"/>
+                                            <constraint firstItem="pwc-SP-vBe" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="WCA-bk-po9"/>
+                                            <constraint firstItem="fuO-2c-ykt" firstAttribute="top" secondItem="Hhm-8D-iHb" secondAttribute="bottom" constant="8" id="WMh-OW-BKC"/>
+                                            <constraint firstItem="pwc-SP-vBe" firstAttribute="top" secondItem="AIX-Ps-fam" secondAttribute="bottom" constant="8" id="WrV-qd-dFW"/>
+                                            <constraint firstItem="2Jz-z3-zwa" firstAttribute="top" secondItem="pwc-SP-vBe" secondAttribute="bottom" constant="8" id="X0o-Ad-m7c"/>
+                                            <constraint firstItem="AIX-Ps-fam" firstAttribute="top" secondItem="3ab-Oy-KHF" secondAttribute="bottom" constant="8" id="X5F-xV-6w3"/>
+                                            <constraint firstItem="WeP-7j-yuA" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="XAO-Zw-7J1"/>
+                                            <constraint firstItem="2Jz-z3-zwa" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="XHp-r1-5lS"/>
+                                            <constraint firstItem="Cpg-d9-kBH" firstAttribute="top" secondItem="WeP-7j-yuA" secondAttribute="bottom" constant="8" id="Xo1-eq-zUm"/>
+                                            <constraint firstItem="AIX-Ps-fam" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="Zug-1O-sDe"/>
+                                            <constraint firstItem="aCw-3u-N8G" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="aJH-UY-EDp"/>
+                                            <constraint firstItem="PM2-4r-TEx" firstAttribute="top" secondItem="Opd-JW-SK8" secondAttribute="bottom" constant="8" id="atZ-Fy-R8X"/>
+                                            <constraint firstItem="zkS-le-5Hf" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="bBx-WX-Phx"/>
+                                            <constraint firstItem="Ecr-Fq-vyT" firstAttribute="top" secondItem="fuO-2c-ykt" secondAttribute="bottom" constant="3" id="c6s-hX-vuz"/>
+                                            <constraint firstItem="pWg-Ok-gci" firstAttribute="top" secondItem="ico-3c-XFj" secondAttribute="bottom" constant="8" id="cQl-dw-cm4"/>
+                                            <constraint firstItem="fCs-1q-vAb" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="cWX-ez-LfX"/>
+                                            <constraint firstItem="SJJ-Ao-iN2" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="d8Q-9y-B3G"/>
+                                            <constraint firstItem="pWg-Ok-gci" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="dDE-ru-9i6"/>
+                                            <constraint firstItem="3ab-Oy-KHF" firstAttribute="top" secondItem="Kuu-Uv-8R3" secondAttribute="bottom" constant="8" id="eN8-dQ-4x7"/>
+                                            <constraint firstItem="s0l-3a-NMu" firstAttribute="top" secondItem="WCS-5W-g5y" secondAttribute="bottom" constant="8" id="etZ-XG-yrO"/>
+                                            <constraint firstItem="2nd-Ug-ThI" firstAttribute="top" secondItem="GVb-Rs-ZFq" secondAttribute="bottom" constant="8" id="fPL-nR-Xwo"/>
+                                            <constraint firstItem="O2O-Xw-SuZ" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="fsp-Tx-YEj"/>
+                                            <constraint firstItem="fCs-1q-vAb" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="gGG-65-rCu"/>
+                                            <constraint firstItem="gt3-q8-JBu" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="gQl-OM-kr7"/>
+                                            <constraint firstItem="gt3-q8-JBu" firstAttribute="top" secondItem="2Jz-z3-zwa" secondAttribute="bottom" constant="8" id="goZ-m0-PlX"/>
+                                            <constraint firstItem="fmV-I1-DuI" firstAttribute="top" secondItem="SJJ-Ao-iN2" secondAttribute="bottom" constant="8" id="hOK-6k-Gf6"/>
+                                            <constraint firstItem="cRm-w5-ES1" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="hW2-Lt-irR"/>
+                                            <constraint firstItem="Hhm-8D-iHb" firstAttribute="top" secondItem="Kvl-wG-n8S" secondAttribute="topMargin" constant="37" id="hXY-Kz-ijJ"/>
+                                            <constraint firstItem="WCS-5W-g5y" firstAttribute="top" secondItem="fCs-1q-vAb" secondAttribute="bottom" constant="8" id="he1-ih-8Qh"/>
+                                            <constraint firstItem="6MN-1v-BPQ" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="hnJ-c5-mdd"/>
+                                            <constraint firstItem="6MN-1v-BPQ" firstAttribute="top" secondItem="38S-6b-eZU" secondAttribute="bottom" constant="8" id="huP-Lw-OLe"/>
+                                            <constraint firstItem="Hhm-8D-iHb" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" id="iAE-Oh-TcV"/>
+                                            <constraint firstItem="Gc7-wH-ppn" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="jAH-7f-bbq"/>
+                                            <constraint firstItem="Q6R-cs-aVg" firstAttribute="top" secondItem="6N8-nf-KeA" secondAttribute="bottom" constant="8" id="jLI-89-gmA"/>
+                                            <constraint firstItem="SJJ-Ao-iN2" firstAttribute="top" secondItem="5RD-hx-dEv" secondAttribute="bottom" constant="8" id="jXF-rS-VX5"/>
+                                            <constraint firstAttribute="height" constant="1700" id="kTD-7t-XHU"/>
+                                            <constraint firstItem="38S-6b-eZU" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="kwF-eq-NqS"/>
+                                            <constraint firstItem="2nd-Ug-ThI" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="ldL-GE-iuR"/>
+                                            <constraint firstItem="Gc7-wH-ppn" firstAttribute="top" secondItem="pWg-Ok-gci" secondAttribute="bottom" constant="8" id="mI0-qM-Mng"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1700" id="mL9-gY-aai"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Opd-JW-SK8" secondAttribute="trailing" constant="15" id="mPW-oc-NkT"/>
+                                            <constraint firstItem="IJS-O8-Xi8" firstAttribute="top" secondItem="Q6R-cs-aVg" secondAttribute="bottom" constant="8" id="mPr-x2-KFd"/>
+                                            <constraint firstItem="bLd-It-Hzd" firstAttribute="top" secondItem="Iet-FO-85c" secondAttribute="bottom" constant="8" id="mX6-L4-eDN"/>
+                                            <constraint firstItem="xfA-YA-2R9" firstAttribute="top" secondItem="aCw-3u-N8G" secondAttribute="bottom" constant="8" id="nDq-Tw-JXY"/>
+                                            <constraint firstItem="5RD-hx-dEv" firstAttribute="top" secondItem="zkS-le-5Hf" secondAttribute="bottom" constant="8" id="rJN-sq-dxk"/>
+                                            <constraint firstItem="Kuu-Uv-8R3" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="rY9-57-s37"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="fmV-I1-DuI" secondAttribute="trailing" constant="14" id="rny-ZZ-Kf3"/>
+                                            <constraint firstItem="ico-3c-XFj" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="rsS-wm-c3d"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Q6R-cs-aVg" secondAttribute="trailing" constant="14" id="ryK-0s-LZO"/>
+                                            <constraint firstItem="w9t-6k-hI6" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="skW-kA-DmN"/>
+                                            <constraint firstItem="BaM-fg-bUq" firstAttribute="top" secondItem="2nd-Ug-ThI" secondAttribute="bottom" constant="8" id="tKo-h2-eGE"/>
+                                            <constraint firstItem="Cpg-d9-kBH" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="teV-3R-J11"/>
+                                            <constraint firstItem="Opd-JW-SK8" firstAttribute="leading" secondItem="Kvl-wG-n8S" secondAttribute="leadingMargin" constant="15" id="tfi-3L-HHy"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Kuu-Uv-8R3" secondAttribute="trailing" constant="14" id="uye-IN-rCr"/>
+                                            <constraint firstItem="w9t-6k-hI6" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="vPa-r9-COC"/>
+                                            <constraint firstItem="cRm-w5-ES1" firstAttribute="top" secondItem="Ecr-Fq-vyT" secondAttribute="bottom" constant="8" id="vYr-Yy-jQh"/>
+                                            <constraint firstItem="w9t-6k-hI6" firstAttribute="top" secondItem="O2O-Xw-SuZ" secondAttribute="bottom" constant="8" id="w4u-ub-F9m"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="fCs-1q-vAb" secondAttribute="trailing" constant="14" id="wV6-PK-dlc"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="cRm-w5-ES1" secondAttribute="trailing" constant="14" id="xca-SP-idj"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="w9t-6k-hI6" secondAttribute="trailing" constant="15" id="xcb-gc-nNo"/>
+                                            <constraint firstItem="pwc-SP-vBe" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="xhs-2p-jCS"/>
+                                            <constraint firstItem="PM2-4r-TEx" firstAttribute="centerX" secondItem="Kvl-wG-n8S" secondAttribute="centerX" id="xvd-EK-e9u"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Kvl-wG-n8S" secondAttribute="trailing" id="46w-Xg-TMz"/>
+                                    <constraint firstItem="Kvl-wG-n8S" firstAttribute="top" secondItem="J1K-28-qgi" secondAttribute="top" id="7YX-KT-Gge"/>
+                                    <constraint firstAttribute="bottom" secondItem="Kvl-wG-n8S" secondAttribute="bottom" id="ddD-Gp-dY3"/>
+                                    <constraint firstItem="Kvl-wG-n8S" firstAttribute="leading" secondItem="J1K-28-qgi" secondAttribute="leading" id="txz-vi-LIO"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UaJ-he-qZz" firstAttribute="top" secondItem="J1K-28-qgi" secondAttribute="bottom" id="COz-bX-hMo"/>
+                            <constraint firstItem="Kvl-wG-n8S" firstAttribute="width" secondItem="n1H-Qd-b3Y" secondAttribute="width" id="GOy-yH-HqL"/>
+                            <constraint firstAttribute="trailing" secondItem="J1K-28-qgi" secondAttribute="trailing" id="NBG-3J-w4I"/>
+                            <constraint firstItem="J1K-28-qgi" firstAttribute="top" secondItem="n1H-Qd-b3Y" secondAttribute="top" constant="20" id="NwH-z1-OeL"/>
+                            <constraint firstItem="J1K-28-qgi" firstAttribute="leading" secondItem="n1H-Qd-b3Y" secondAttribute="leading" id="bSZ-hu-iiK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="New Mood Rating" id="7ZP-vs-nl4">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="W3p-mK-9H6">
+                            <connections>
+                                <action selector="cancel:" destination="nSK-Hw-Nmk" id="cj2-cX-qqr"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="7lh-bD-uhO">
+                            <connections>
+                                <action selector="save:" destination="nSK-Hw-Nmk" id="1gZ-te-GS3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1700"/>
+                    <connections>
+                        <outlet property="labelQ1" destination="Ecr-Fq-vyT" id="fLE-4U-8X5"/>
+                        <outlet property="sliderQ1" destination="cRm-w5-ES1" id="6rM-cH-DYo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qLQ-At-cgJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2996.5" y="1415"/>
         </scene>
         <!--Contact-->
         <scene sceneID="HkU-1G-lw6">
@@ -660,6 +1270,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bwz-Wy-rfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1451.5" y="2007.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vmz-uN-qv3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y2i-Pn-2Bc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VAr-ZF-WNH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="nSK-Hw-Nmk" kind="relationship" relationship="rootViewController" id="ZcM-ub-CZJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ixd-WW-mWx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2436.5" y="1248.5"/>
         </scene>
     </scenes>
     <resources>
