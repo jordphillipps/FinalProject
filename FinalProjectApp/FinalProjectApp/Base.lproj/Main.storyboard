@@ -529,7 +529,7 @@
             </objects>
             <point key="canvasLocation" x="1943.5" y="1248.5"/>
         </scene>
-        <!--View Controller Mood1-->
+        <!--Mood Rating-->
         <scene sceneID="d7X-m2-cZE">
             <objects>
                 <viewController id="1Xt-B0-I8U" customClass="ViewControllerMood1" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -547,97 +547,167 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DuF-89-P3f">
                                         <rect key="frame" x="0.0" y="-8" width="375" height="655"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental Well Being Scale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBJ-p9-HUA">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mental Well Being Scale" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBJ-p9-HUA">
                                                 <rect key="frame" x="67" y="72" width="240" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="240" id="Yol-wT-oEV"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="27"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.10980392160000001" green="0.1960784314" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I've been feeling optimistic about the future" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI0-D2-FAR">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've been feeling optimistic about the future" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI0-D2-FAR">
                                                 <rect key="frame" x="51" y="113" width="272" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="272" id="NFA-Iu-GSi"/>
+                                                    <constraint firstAttribute="height" constant="21" id="OyJ-SP-Lp0"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I've been feeling useful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Flr-DL-Gcn">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've been feeling useful" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Flr-DL-Gcn">
                                                 <rect key="frame" x="51" y="205" width="272" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="0cL-fo-PnE"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIp-Qk-ohb">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIp-Qk-ohb">
                                                 <rect key="frame" x="183" y="142" width="9" height="17"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="9" id="QY8-3b-Vm4"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyZ-ic-puY">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyZ-ic-puY">
                                                 <rect key="frame" x="183" y="234" width="9" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="hH4-BS-0DH">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="hH4-BS-0DH">
                                                 <rect key="frame" x="49" y="168" width="276" height="31"/>
+                                                <color key="minimumTrackTintColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="valuechanged1:" destination="1Xt-B0-I8U" eventType="valueChanged" id="8in-G1-LwR"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Nim-kB-6aX">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Nim-kB-6aX">
                                                 <rect key="frame" x="49" y="260" width="276" height="31"/>
+                                                <color key="minimumTrackTintColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="valuechanged2:" destination="1Xt-B0-I8U" eventType="valueChanged" id="TO5-fL-GVF"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ffr-vs-lNW">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ffr-vs-lNW">
                                                 <rect key="frame" x="49" y="351" width="276" height="31"/>
+                                                <color key="minimumTrackTintColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="valuechanged3:" destination="1Xt-B0-I8U" eventType="valueChanged" id="RX1-Mv-B8W"/>
                                                 </connections>
                                             </slider>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I've been feeling relaxed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-cc-MEc">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've been feeling relaxed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-cc-MEc">
                                                 <rect key="frame" x="51" y="297" width="272" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="P65-XU-ppI"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuR-Ji-anP">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LuR-Ji-anP">
                                                 <rect key="frame" x="183" y="325" width="9" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I've been dealing with my problems well" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gg-FX-NFw">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've been dealing with my problems well" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gg-FX-NFw">
                                                 <rect key="frame" x="51" y="388" width="272" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="4yO-Np-Qx2"/>
+                                                    <constraint firstAttribute="width" constant="272" id="Ozf-7h-FFS"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDL-cc-if4">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDL-cc-if4">
                                                 <rect key="frame" x="183" y="417" width="9" height="17"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="XuO-9t-HUv">
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="XuO-9t-HUv">
                                                 <rect key="frame" x="49" y="443" width="276" height="31"/>
+                                                <color key="minimumTrackTintColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <connections>
                                                     <action selector="valuechanged4:" destination="1Xt-B0-I8U" eventType="valueChanged" id="42z-Ho-8Jf"/>
                                                 </connections>
                                             </slider>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld3-ua-weV">
-                                                <rect key="frame" x="166" y="510" width="42" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld3-ua-weV">
+                                                <rect key="frame" x="208" y="510" width="0.0" height="0.0"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="M1X-Ve-EHu"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.99215686270000003" green="0.80890960540000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstItem="aBJ-p9-HUA" firstAttribute="centerX" secondItem="DuF-89-P3f" secondAttribute="centerX" id="0yw-Dn-oWw"/>
+                                            <constraint firstItem="hH4-BS-0DH" firstAttribute="top" secondItem="LIp-Qk-ohb" secondAttribute="bottom" constant="9" id="4qo-5m-IiU"/>
                                             <constraint firstAttribute="height" constant="655" id="6DO-Uv-55i"/>
+                                            <constraint firstItem="LuR-Ji-anP" firstAttribute="leading" secondItem="lDL-cc-if4" secondAttribute="leading" id="6gL-WS-cvj"/>
+                                            <constraint firstItem="hyZ-ic-puY" firstAttribute="leading" secondItem="LuR-Ji-anP" secondAttribute="leading" id="7W3-WC-9FY"/>
+                                            <constraint firstItem="0gg-FX-NFw" firstAttribute="top" secondItem="ffr-vs-lNW" secondAttribute="bottom" constant="7" id="8Vi-Y2-fmM"/>
+                                            <constraint firstItem="Ld3-ua-weV" firstAttribute="top" secondItem="XuO-9t-HUv" secondAttribute="bottom" constant="37" id="91z-xm-Vj0"/>
+                                            <constraint firstItem="lDL-cc-if4" firstAttribute="trailing" secondItem="LuR-Ji-anP" secondAttribute="trailing" id="Cew-gf-0DC"/>
+                                            <constraint firstItem="ffr-vs-lNW" firstAttribute="leading" secondItem="0gg-FX-NFw" secondAttribute="leading" id="IUg-HQ-IEL"/>
+                                            <constraint firstItem="LuR-Ji-anP" firstAttribute="top" secondItem="EVS-cc-MEc" secondAttribute="bottom" constant="7" id="J2D-xK-SnU"/>
+                                            <constraint firstItem="Flr-DL-Gcn" firstAttribute="top" secondItem="hH4-BS-0DH" secondAttribute="bottom" constant="7" id="J68-ld-2Bm"/>
+                                            <constraint firstItem="XuO-9t-HUv" firstAttribute="top" secondItem="lDL-cc-if4" secondAttribute="bottom" constant="9" id="LEG-ft-vEv"/>
+                                            <constraint firstItem="hH4-BS-0DH" firstAttribute="trailing" secondItem="Flr-DL-Gcn" secondAttribute="trailing" id="Lkj-uC-zKT"/>
+                                            <constraint firstItem="hyZ-ic-puY" firstAttribute="trailing" secondItem="LuR-Ji-anP" secondAttribute="trailing" id="Mer-oM-wt4"/>
+                                            <constraint firstItem="LIp-Qk-ohb" firstAttribute="top" secondItem="MI0-D2-FAR" secondAttribute="bottom" constant="8" symbolic="YES" id="Oeg-oh-WZk"/>
+                                            <constraint firstItem="EVS-cc-MEc" firstAttribute="trailing" secondItem="Nim-kB-6aX" secondAttribute="trailing" id="QDp-GJ-boD"/>
+                                            <constraint firstItem="aBJ-p9-HUA" firstAttribute="top" secondItem="DuF-89-P3f" secondAttribute="top" constant="72" id="Qor-eu-IOs"/>
+                                            <constraint firstItem="MI0-D2-FAR" firstAttribute="top" secondItem="DuF-89-P3f" secondAttribute="top" constant="113" id="S4Q-H5-7ch"/>
+                                            <constraint firstItem="MI0-D2-FAR" firstAttribute="top" secondItem="aBJ-p9-HUA" secondAttribute="bottom" constant="8" id="T7J-Wt-idC"/>
+                                            <constraint firstItem="EVS-cc-MEc" firstAttribute="leading" secondItem="ffr-vs-lNW" secondAttribute="leading" id="VQl-f3-0Pm"/>
+                                            <constraint firstItem="0gg-FX-NFw" firstAttribute="trailing" secondItem="ffr-vs-lNW" secondAttribute="trailing" id="Whn-OA-xMO"/>
+                                            <constraint firstItem="MI0-D2-FAR" firstAttribute="leading" secondItem="hH4-BS-0DH" secondAttribute="leading" id="YEM-nZ-vbM"/>
+                                            <constraint firstItem="hyZ-ic-puY" firstAttribute="top" secondItem="Flr-DL-Gcn" secondAttribute="bottom" constant="8" symbolic="YES" id="Yag-O1-a5r"/>
+                                            <constraint firstItem="Ld3-ua-weV" firstAttribute="centerX" secondItem="XuO-9t-HUv" secondAttribute="centerX" id="ZJs-aS-XqB"/>
+                                            <constraint firstItem="ffr-vs-lNW" firstAttribute="top" secondItem="LuR-Ji-anP" secondAttribute="bottom" constant="9" id="ZWV-Iz-UND"/>
+                                            <constraint firstItem="EVS-cc-MEc" firstAttribute="centerX" secondItem="LuR-Ji-anP" secondAttribute="centerX" id="cSL-Bi-ZnD"/>
+                                            <constraint firstItem="LIp-Qk-ohb" firstAttribute="trailing" secondItem="hyZ-ic-puY" secondAttribute="trailing" id="dkc-uN-oxY"/>
+                                            <constraint firstItem="Nim-kB-6aX" firstAttribute="leading" secondItem="EVS-cc-MEc" secondAttribute="leading" id="e5o-w2-10X"/>
+                                            <constraint firstItem="0gg-FX-NFw" firstAttribute="centerX" secondItem="DuF-89-P3f" secondAttribute="centerX" id="fdD-h7-Jl1"/>
+                                            <constraint firstItem="MI0-D2-FAR" firstAttribute="centerX" secondItem="DuF-89-P3f" secondAttribute="centerX" id="mXb-yv-p1V"/>
+                                            <constraint firstItem="Flr-DL-Gcn" firstAttribute="leading" secondItem="hH4-BS-0DH" secondAttribute="leading" id="nc9-W5-ddU"/>
+                                            <constraint firstItem="EVS-cc-MEc" firstAttribute="trailing" secondItem="ffr-vs-lNW" secondAttribute="trailing" id="pa2-a7-bv8"/>
+                                            <constraint firstItem="hyZ-ic-puY" firstAttribute="leading" secondItem="LIp-Qk-ohb" secondAttribute="leading" id="qs8-5c-84W"/>
+                                            <constraint firstItem="XuO-9t-HUv" firstAttribute="trailing" secondItem="0gg-FX-NFw" secondAttribute="trailing" id="r2G-yR-eUk"/>
+                                            <constraint firstItem="0gg-FX-NFw" firstAttribute="leading" secondItem="XuO-9t-HUv" secondAttribute="leading" id="vDh-Kt-rXl"/>
+                                            <constraint firstItem="Nim-kB-6aX" firstAttribute="top" secondItem="hyZ-ic-puY" secondAttribute="bottom" constant="9" id="vio-mU-qYM"/>
+                                            <constraint firstItem="MI0-D2-FAR" firstAttribute="trailing" secondItem="hH4-BS-0DH" secondAttribute="trailing" id="xtG-2j-Fd0"/>
+                                            <constraint firstItem="EVS-cc-MEc" firstAttribute="top" secondItem="Nim-kB-6aX" secondAttribute="bottom" constant="7" id="yYX-Cp-IxN"/>
+                                            <constraint firstItem="lDL-cc-if4" firstAttribute="top" secondItem="0gg-FX-NFw" secondAttribute="bottom" constant="8" symbolic="YES" id="zmQ-Eu-9Rh"/>
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.80890960540000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="DuF-89-P3f" firstAttribute="top" secondItem="Zf0-eN-wmA" secondAttribute="top" constant="-8" id="1DV-C4-tva"/>
                                     <constraint firstAttribute="bottom" secondItem="DuF-89-P3f" secondAttribute="bottom" id="Idn-ww-Xjk"/>
@@ -655,13 +725,15 @@
                             <constraint firstItem="Zf0-eN-wmA" firstAttribute="leading" secondItem="S34-cm-s60" secondAttribute="leading" id="kes-EB-o8j"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="afL-Pb-056">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="iHm-Xz-f66">
+                    <navigationItem key="navigationItem" title="Mood Rating" id="afL-Pb-056">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="iHm-Xz-f66">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="cancel:" destination="1Xt-B0-I8U" id="doQ-lJ-OOD"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Next" id="s1C-yB-IiX">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="fio-2A-S38" kind="presentation" id="HEA-Ig-rCH"/>
                             </connections>
@@ -684,7 +756,7 @@
             </objects>
             <point key="canvasLocation" x="2946.5" y="1248.5"/>
         </scene>
-        <!--View Controller Mood2-->
+        <!--Mood Rating-->
         <scene sceneID="qku-eI-hD1">
             <objects>
                 <viewController id="0k2-r9-k73" customClass="ViewControllerMood2" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -696,76 +768,122 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I've been thinking clearly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTQ-F0-QdY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've been thinking clearly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTQ-F0-QdY">
                                 <rect key="frame" x="109" y="72" width="156" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="lPc-Nr-gtf"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhP-rX-7cQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhP-rX-7cQ">
                                 <rect key="frame" x="183" y="101" width="8" height="16"/>
                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="xAB-bj-SA5">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="xAB-bj-SA5">
                                 <rect key="frame" x="49" y="125" width="276" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="valuechanged1:" destination="0k2-r9-k73" eventType="valueChanged" id="Mtp-cq-Ddx"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I've been feeling close to other people" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUI-PX-nuQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've been feeling close to other people" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUI-PX-nuQ">
                                 <rect key="frame" x="67" y="163" width="241" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="KqX-Pg-XJd"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSc-at-wLe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSc-at-wLe">
                                 <rect key="frame" x="183" y="192" width="8" height="16"/>
                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ExM-Ro-zte">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="ExM-Ro-zte">
                                 <rect key="frame" x="49" y="216" width="276" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="valuechanged2:" destination="0k2-r9-k73" eventType="valueChanged" id="HIv-Yu-1kp"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I've been able to make up my mind about things" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2O-dJ-Mdp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I've been able to make up my mind about things" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2O-dJ-Mdp">
                                 <rect key="frame" x="20" y="254" width="335" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="335" id="Grr-wr-dXu"/>
+                                    <constraint firstAttribute="height" constant="21" id="huV-jC-MgK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qB8-om-65Q">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qB8-om-65Q">
                                 <rect key="frame" x="183" y="283" width="8" height="16"/>
                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="xlj-2M-R2r">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="xlj-2M-R2r">
                                 <rect key="frame" x="49" y="307" width="276" height="31"/>
+                                <color key="minimumTrackTintColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="maximumTrackTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="valuechanged3:" destination="0k2-r9-k73" eventType="valueChanged" id="zf2-Gg-rEc"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpJ-Um-8wg">
-                                <rect key="frame" x="166" y="365" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpJ-Um-8wg">
+                                <rect key="frame" x="208" y="365" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mtU-HY-33w"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.99215686270000003" green="0.80890960540000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="iTQ-F0-QdY" firstAttribute="centerX" secondItem="IhP-rX-7cQ" secondAttribute="centerX" id="9Zi-Aq-JXg"/>
+                            <constraint firstItem="xlj-2M-R2r" firstAttribute="centerX" secondItem="IpJ-Um-8wg" secondAttribute="centerX" id="AU5-FM-fab"/>
+                            <constraint firstItem="ExM-Ro-zte" firstAttribute="leading" secondItem="xAB-bj-SA5" secondAttribute="leading" id="BpO-cJ-bJp"/>
+                            <constraint firstItem="lSc-at-wLe" firstAttribute="top" secondItem="WUI-PX-nuQ" secondAttribute="bottom" constant="8" symbolic="YES" id="I5D-ai-vhO"/>
+                            <constraint firstItem="IhP-rX-7cQ" firstAttribute="leading" secondItem="lSc-at-wLe" secondAttribute="leading" id="I9n-ed-BNA"/>
+                            <constraint firstItem="z2O-dJ-Mdp" firstAttribute="top" secondItem="ExM-Ro-zte" secondAttribute="bottom" constant="8" id="LEN-Kr-i6W"/>
+                            <constraint firstItem="WUI-PX-nuQ" firstAttribute="top" secondItem="xAB-bj-SA5" secondAttribute="bottom" constant="8" symbolic="YES" id="Lqi-SR-aI4"/>
+                            <constraint firstItem="iTQ-F0-QdY" firstAttribute="top" secondItem="FBb-Nd-g9h" secondAttribute="bottom" constant="8" symbolic="YES" id="RCo-qm-Xmh"/>
+                            <constraint firstItem="qB8-om-65Q" firstAttribute="top" secondItem="z2O-dJ-Mdp" secondAttribute="bottom" constant="8" symbolic="YES" id="Unm-cM-o5G"/>
+                            <constraint firstItem="xAB-bj-SA5" firstAttribute="trailing" secondItem="ExM-Ro-zte" secondAttribute="trailing" id="Vud-ay-lvu"/>
+                            <constraint firstItem="IpJ-Um-8wg" firstAttribute="top" secondItem="xlj-2M-R2r" secondAttribute="bottom" constant="28" id="Z05-Rp-eGw"/>
+                            <constraint firstItem="qB8-om-65Q" firstAttribute="leading" secondItem="lSc-at-wLe" secondAttribute="leading" id="ZAG-ce-T48"/>
+                            <constraint firstItem="xAB-bj-SA5" firstAttribute="top" secondItem="IhP-rX-7cQ" secondAttribute="bottom" constant="8" symbolic="YES" id="ZFz-DZ-alp"/>
+                            <constraint firstItem="ExM-Ro-zte" firstAttribute="top" secondItem="lSc-at-wLe" secondAttribute="bottom" constant="8" symbolic="YES" id="dFr-iK-5kl"/>
+                            <constraint firstItem="xlj-2M-R2r" firstAttribute="top" secondItem="qB8-om-65Q" secondAttribute="bottom" constant="8" symbolic="YES" id="e7B-JP-QsT"/>
+                            <constraint firstItem="IhP-rX-7cQ" firstAttribute="centerX" secondItem="xAB-bj-SA5" secondAttribute="centerX" id="fkM-VT-Ebb"/>
+                            <constraint firstItem="xlj-2M-R2r" firstAttribute="leading" secondItem="ExM-Ro-zte" secondAttribute="leading" id="fsd-8X-mZV"/>
+                            <constraint firstItem="z2O-dJ-Mdp" firstAttribute="centerX" secondItem="qB8-om-65Q" secondAttribute="centerX" id="iu1-Oe-grt"/>
+                            <constraint firstItem="z2O-dJ-Mdp" firstAttribute="centerX" secondItem="qZg-4w-gix" secondAttribute="centerX" id="jZG-pj-Qvg"/>
+                            <constraint firstItem="ExM-Ro-zte" firstAttribute="trailing" secondItem="xlj-2M-R2r" secondAttribute="trailing" id="kqW-uv-L1y"/>
+                            <constraint firstItem="IhP-rX-7cQ" firstAttribute="top" secondItem="iTQ-F0-QdY" secondAttribute="bottom" constant="8" symbolic="YES" id="ona-0c-UWt"/>
+                            <constraint firstItem="lSc-at-wLe" firstAttribute="centerX" secondItem="WUI-PX-nuQ" secondAttribute="centerX" id="x7o-oV-HIu"/>
+                            <constraint firstItem="xAB-bj-SA5" firstAttribute="leading" secondItem="qZg-4w-gix" secondAttribute="leadingMargin" constant="35" id="yHa-9f-MQr"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="tLs-aB-7hb">
+                    <navigationItem key="navigationItem" title="Mood Rating" id="tLs-aB-7hb">
                         <barButtonItem key="leftBarButtonItem" title="Back" id="gZd-Y3-nU2">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="back:" destination="0k2-r9-k73" id="gzd-2K-lIA"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Save" id="Qog-mT-7sG">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="save:" destination="0k2-r9-k73" id="ugh-Ab-8PC"/>
                             </connections>
@@ -922,7 +1040,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ssz-cF-g0w">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.10980392156862745" green="0.19607843137254902" blue="0.44705882352941179" alpha="1" colorSpace="calibratedRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -970,6 +1088,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="n5g-7g-5gU">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.10980392160000001" green="0.1960784314" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -989,6 +1112,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jog-XN-jps">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.10980392160000001" green="0.1960784314" blue="0.44705882349999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

@@ -52,6 +52,23 @@ class ViewController4: UIViewController, UITableViewDelegate, UITableViewDataSou
         
     }
     
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        
+        if editingStyle == UITableViewCellEditingStyle.Delete{
+            
+            Score.removeAtIndex(indexPath.row)
+            
+            NSUserDefaults.standardUserDefaults().setObject(Score, forKey: "Score")
+            
+            tableView.reloadData()
+            
+        }
+    }
+    
+     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+    }
+    
     override func viewDidAppear(animated: Bool) {
         tableView.reloadData()
     }
