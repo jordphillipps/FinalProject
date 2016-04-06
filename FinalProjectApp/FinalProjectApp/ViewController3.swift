@@ -103,6 +103,28 @@ class ViewController3: UIViewController, UITableViewDataSource, UITableViewDeleg
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
     
+    // delete function
+    
+    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        switch editingStyle {
+        case .Delete:    // 1
+            
+            let appDel:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate // 2
+            let context: NSManagedObjectContext = appDel.managedObjectContext // 3
+            context.deleteObject(notesArray[indexPath.row] as NSManagedObject)     // 4
+            notesArray.removeAtIndex(indexPath.row)   // 5
+            
+            do {
+                try context.save()
+                
+            } catch let deleteError as NSError {
+                print("Delete error: \(deleteError.localizedDescription)")
+            }                                                  // 6
+            self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade) // 7
+        default:
+            return
+        }
+    }
     
     
     

@@ -28,7 +28,7 @@ class ViewController4: UIViewController, UITableViewDelegate, UITableViewDataSou
             self.tableView.delegate = self
             
             if NSUserDefaults.standardUserDefaults().objectForKey("Score") != nil {
-                Score = NSUserDefaults.standardUserDefaults().objectForKey("Score") as! [String]
+            Score = NSUserDefaults.standardUserDefaults().objectForKey("Score") as! [String]
             }
             
             

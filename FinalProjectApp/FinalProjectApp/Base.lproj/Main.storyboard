@@ -31,6 +31,7 @@
             <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
+            <string>StreetCorner</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -452,25 +453,41 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBP-Kx-fnE">
-                                <rect key="frame" x="163" y="319" width="49" height="30"/>
-                                <state key="normal" title="Record"/>
-                                <connections>
-                                    <action selector="record:" destination="jNd-2p-z9L" eventType="touchUpInside" id="bfd-Hm-pvx"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Note Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UgK-U3-Sd9">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Note Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UgK-U3-Sd9">
                                 <rect key="frame" x="20" y="162" width="335" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="p5l-Ka-Joz"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="23"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBP-Kx-fnE">
+                                <rect key="frame" x="112" y="241" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bBP-Kx-fnE" secondAttribute="height" multiplier="1:1" id="JyO-VN-bPq"/>
+                                    <constraint firstAttribute="height" constant="150" id="l6e-jA-sm1"/>
+                                </constraints>
+                                <state key="normal" title="Record" image="whitebuttonNormal.png"/>
+                                <state key="highlighted" image="pinkbuttonRecord.png"/>
+                                <connections>
+                                    <action selector="record:" destination="jNd-2p-z9L" eventType="touchUpInside" id="bfd-Hm-pvx"/>
+                                    <action selector="touchDownRecord:" destination="jNd-2p-z9L" eventType="touchDown" id="uq7-Ca-NTY"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.99215686274509807" green="0.80890960539928403" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="bBP-Kx-fnE" firstAttribute="leading" secondItem="Nh1-Ea-6II" secondAttribute="leadingMargin" constant="96" id="1x8-Fx-dCh"/>
                             <constraint firstItem="fFF-Zq-gHc" firstAttribute="top" secondItem="ZrX-z5-Vja" secondAttribute="bottom" id="2yP-UL-fxn"/>
+                            <constraint firstItem="UgK-U3-Sd9" firstAttribute="leading" secondItem="Nh1-Ea-6II" secondAttribute="leadingMargin" constant="4" id="6BY-xU-PY1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fFF-Zq-gHc" secondAttribute="trailing" constant="-20" id="FIr-E6-gJS"/>
                             <constraint firstItem="fFF-Zq-gHc" firstAttribute="centerX" secondItem="Nh1-Ea-6II" secondAttribute="centerX" id="TZt-Hn-qkJ"/>
                             <constraint firstItem="fFF-Zq-gHc" firstAttribute="leading" secondItem="Nh1-Ea-6II" secondAttribute="leadingMargin" constant="-20" id="Twy-JV-6Bq"/>
+                            <constraint firstItem="bBP-Kx-fnE" firstAttribute="centerX" secondItem="UgK-U3-Sd9" secondAttribute="centerX" id="a52-24-BK9"/>
+                            <constraint firstItem="UgK-U3-Sd9" firstAttribute="top" secondItem="fFF-Zq-gHc" secondAttribute="bottom" constant="98" id="dBM-my-KAp"/>
+                            <constraint firstItem="UgK-U3-Sd9" firstAttribute="centerX" secondItem="fFF-Zq-gHc" secondAttribute="centerX" id="lHW-jt-RYD"/>
+                            <constraint firstItem="bBP-Kx-fnE" firstAttribute="top" secondItem="UgK-U3-Sd9" secondAttribute="bottom" constant="49" id="xwC-nZ-u5P"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -1131,7 +1148,9 @@
     <resources>
         <image name="Menu Filled-20.png" width="20" height="20"/>
         <image name="header.jpg" width="250" height="162"/>
+        <image name="pinkbuttonRecord.png" width="256" height="255"/>
         <image name="smart_phone_RGB_large.jpg" width="500" height="500"/>
+        <image name="whitebuttonNormal.png" width="256" height="255"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="6Od-oT-Yo4"/>

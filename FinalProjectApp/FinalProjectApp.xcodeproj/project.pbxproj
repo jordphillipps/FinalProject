@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		D15500121CB52AD40023C9DF /* ViewControllerMood1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15500111CB52AD40023C9DF /* ViewControllerMood1.swift */; settings = {ASSET_TAGS = (); }; };
 		D15500141CB53F8B0023C9DF /* ViewControllerMood2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15500131CB53F8B0023C9DF /* ViewControllerMood2.swift */; settings = {ASSET_TAGS = (); }; };
+		D15500161CB56D670023C9DF /* whitebuttonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D15500151CB56D670023C9DF /* whitebuttonNormal.png */; settings = {ASSET_TAGS = (); }; };
+		D15500181CB56D700023C9DF /* pinkbuttonRecord.png in Resources */ = {isa = PBXBuildFile; fileRef = D15500171CB56D700023C9DF /* pinkbuttonRecord.png */; settings = {ASSET_TAGS = (); }; };
 		D1BA1A991CB2BED80033F32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A981CB2BED80033F32C /* AppDelegate.swift */; };
 		D1BA1A9E1CB2BED80033F32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1A9C1CB2BED80033F32C /* Main.storyboard */; };
 		D1BA1AA11CB2BED80033F32C /* FinalProjectApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A9F1CB2BED80033F32C /* FinalProjectApp.xcdatamodeld */; };
@@ -77,6 +79,8 @@
 /* Begin PBXFileReference section */
 		D15500111CB52AD40023C9DF /* ViewControllerMood1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerMood1.swift; path = ../ViewControllerMood1.swift; sourceTree = "<group>"; };
 		D15500131CB53F8B0023C9DF /* ViewControllerMood2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMood2.swift; sourceTree = "<group>"; };
+		D15500151CB56D670023C9DF /* whitebuttonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebuttonNormal.png; sourceTree = "<group>"; };
+		D15500171CB56D700023C9DF /* pinkbuttonRecord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinkbuttonRecord.png; sourceTree = "<group>"; };
 		D1BA1A951CB2BED80033F32C /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA1A981CB2BED80033F32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1BA1A9D1CB2BED80033F32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -279,6 +283,8 @@
 				D1BA1B0F1CB2C6740033F32C /* shattered_@2X.png */,
 				D1BA1B1B1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg */,
 				D1BA1B131CB2C67E0033F32C /* startRecordSound.m4a */,
+				D15500151CB56D670023C9DF /* whitebuttonNormal.png */,
+				D15500171CB56D700023C9DF /* pinkbuttonRecord.png */,
 				D1BA1B041CB2C11E0033F32C /* Street Corner.ttf */,
 				D1BA1B051CB2C11E0033F32C /* KGSmallTownSouthernGirl.ttf */,
 			);
@@ -390,7 +396,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15500181CB56D700023C9DF /* pinkbuttonRecord.png in Resources */,
 				D1BA1AA61CB2BED80033F32C /* LaunchScreen.storyboard in Resources */,
+				D15500161CB56D670023C9DF /* whitebuttonNormal.png in Resources */,
 				D1BA1B121CB2C6740033F32C /* shattered_@2X.png in Resources */,
 				D1BA1B021CB2C1140033F32C /* Menu Filled-20.png in Resources */,
 				D1BA1AFF1CB2C1140033F32C /* Contacts Filled-50.png in Resources */,
