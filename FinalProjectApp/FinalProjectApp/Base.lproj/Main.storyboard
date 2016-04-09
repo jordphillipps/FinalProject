@@ -20,8 +20,19 @@
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
         </mutableArray>
         <mutableArray key="Street Corner.ttf">
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
@@ -546,11 +557,11 @@
                         <viewControllerLayoutGuide type="bottom" id="xeV-gb-iHq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wzh-jp-7g9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7a4-j6-7GQ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="1080"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gIZ-zA-xdb">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
@@ -691,8 +702,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="1100"/>
                     <connections>
                         <outlet property="videoView" destination="LWn-JK-XPC" id="1Cn-UE-BTB"/>
                     </connections>
@@ -712,7 +721,177 @@
                     <view key="view" contentMode="scaleToFill" id="Mts-Mn-2Lf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7ab-d9-AUV">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECL-h3-RFk">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bipolar Disorder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXX-E6-STa">
+                                                <rect key="frame" x="47" y="49" width="281" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="3hi-pI-SPG"/>
+                                                    <constraint firstAttribute="width" constant="281" id="D7f-iN-7Qk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="40"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is Bipolar Disorder?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txi-Pb-F6j">
+                                                <rect key="frame" x="8" y="117" width="191" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="191" id="NHb-bk-jGc"/>
+                                                    <constraint firstAttribute="height" constant="21" id="y8Z-nM-iPz"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbz-U1-bBK">
+                                                <rect key="frame" x="8" y="146" width="359" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="lfs-tB-9kK"/>
+                                                </constraints>
+                                                <string key="text">Bipolar disorder is a mental health problem that mainly affects your mood. If you have bipolar disorder, you are likely to have times where you experience: manic or hypomanic episodes (feeling high), depressive episodes (feeling low) and potentially some psychotic symptoms during manic or depressed episodes. </string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptoms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2N-oF-nf0">
+                                                <rect key="frame" x="8" y="274" width="82" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="82" id="MRE-4j-svf"/>
+                                                    <constraint firstAttribute="height" constant="21" id="gVt-iN-CZa"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manic episodes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzs-NF-KtI">
+                                                <rect key="frame" x="8" y="303" width="95" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="x61-3f-4iV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="17"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVq-8A-iDK">
+                                                <rect key="frame" x="8" y="332" width="359" height="109"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="109" id="PmJ-3E-ogL"/>
+                                                </constraints>
+                                                <string key="text">During a manic episode you may feel happy, euphoric or a sense of well being, uncontrollably excited, irritable or aggitated, increased sexual energy, very confident, more active than usual, being very friendly, sleeping very little, being rude or aggressive and losing social inhibitions. </string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Depressive episodes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QmM-A8-dPr">
+                                                <rect key="frame" x="8" y="449" width="159" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="159" id="R3m-vm-g7t"/>
+                                                    <constraint firstAttribute="height" constant="21" id="WKW-hs-N1l"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="17"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qn7-Qb-Day">
+                                                <rect key="frame" x="8" y="471" width="359" height="104"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="104" id="CoE-AK-qbI"/>
+                                                </constraints>
+                                                <string key="text">During a depressive episode you may feel down, upset or tearful, tired or sluggish, low self-esteem and lacking in confidence, suicidal, not doing things you normally enjoy, misusing drugs or alcohol, self-harming and being withdrawn.</string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How can i help myself cope?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blA-xR-AUz">
+                                                <rect key="frame" x="8" y="583" width="216" height="24"/>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j1R-ZM-m1A">
+                                                <rect key="frame" x="8" y="615" width="359" height="87"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="87" id="BvF-8d-ufW"/>
+                                                </constraints>
+                                                <string key="text">To help yourself cope you can monitor your moods, understand your triggers, learn your warning signs, manage stress, manage finances, get good sleep, eat a healthy diet and use your support network. </string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Talking about Bipolar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3w-sd-Koq">
+                                                <rect key="frame" x="8" y="710" width="153" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="153" id="tSS-d3-HuC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nSA-qo-PPG">
+                                                <rect key="frame" x="8" y="742" width="359" height="235"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="235" id="TUa-tJ-NH3"/>
+                                                </constraints>
+                                            </webView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="pbz-U1-bBK" firstAttribute="trailing" secondItem="sVq-8A-iDK" secondAttribute="trailing" id="3HW-nv-C2R"/>
+                                            <constraint firstItem="nSA-qo-PPG" firstAttribute="top" secondItem="w3w-sd-Koq" secondAttribute="bottom" constant="8" symbolic="YES" id="40M-gB-0Z8"/>
+                                            <constraint firstItem="blA-xR-AUz" firstAttribute="top" secondItem="qn7-Qb-Day" secondAttribute="bottom" constant="8" symbolic="YES" id="8UQ-y7-Hrq"/>
+                                            <constraint firstItem="qn7-Qb-Day" firstAttribute="top" secondItem="QmM-A8-dPr" secondAttribute="bottom" constant="1" id="Ae8-eq-qCb"/>
+                                            <constraint firstItem="lXX-E6-STa" firstAttribute="top" secondItem="ECL-h3-RFk" secondAttribute="top" constant="49" id="EFH-ws-fzp"/>
+                                            <constraint firstItem="pbz-U1-bBK" firstAttribute="leading" secondItem="Q2N-oF-nf0" secondAttribute="leading" id="HK0-dg-6Qu"/>
+                                            <constraint firstItem="pbz-U1-bBK" firstAttribute="top" secondItem="txi-Pb-F6j" secondAttribute="bottom" constant="8" symbolic="YES" id="NuA-nd-D4f"/>
+                                            <constraint firstItem="sVq-8A-iDK" firstAttribute="leading" secondItem="QmM-A8-dPr" secondAttribute="leading" id="OjE-at-3iL"/>
+                                            <constraint firstItem="j1R-ZM-m1A" firstAttribute="leading" secondItem="blA-xR-AUz" secondAttribute="leading" id="S7U-s3-Jsd"/>
+                                            <constraint firstItem="gzs-NF-KtI" firstAttribute="leading" secondItem="sVq-8A-iDK" secondAttribute="leading" id="ULY-gt-SgC"/>
+                                            <constraint firstItem="j1R-ZM-m1A" firstAttribute="top" secondItem="blA-xR-AUz" secondAttribute="bottom" constant="8" symbolic="YES" id="UNa-qq-HNf"/>
+                                            <constraint firstItem="pbz-U1-bBK" firstAttribute="centerX" secondItem="lXX-E6-STa" secondAttribute="centerX" id="W4V-Ic-UXJ"/>
+                                            <constraint firstAttribute="height" constant="1100" id="Wms-w2-OA3"/>
+                                            <constraint firstItem="j1R-ZM-m1A" firstAttribute="leading" secondItem="w3w-sd-Koq" secondAttribute="leading" id="YHH-VN-exN"/>
+                                            <constraint firstItem="txi-Pb-F6j" firstAttribute="leading" secondItem="pbz-U1-bBK" secondAttribute="leading" id="ZDO-LU-WND"/>
+                                            <constraint firstItem="lXX-E6-STa" firstAttribute="centerX" secondItem="ECL-h3-RFk" secondAttribute="centerX" id="ZeW-0T-MVw"/>
+                                            <constraint firstItem="nSA-qo-PPG" firstAttribute="leading" secondItem="w3w-sd-Koq" secondAttribute="leading" id="bt0-qT-Dc3"/>
+                                            <constraint firstItem="nSA-qo-PPG" firstAttribute="trailing" secondItem="j1R-ZM-m1A" secondAttribute="trailing" id="c63-86-jwJ"/>
+                                            <constraint firstItem="gzs-NF-KtI" firstAttribute="leading" secondItem="Q2N-oF-nf0" secondAttribute="leading" id="drF-bY-rys"/>
+                                            <constraint firstItem="gzs-NF-KtI" firstAttribute="leading" secondItem="ECL-h3-RFk" secondAttribute="leadingMargin" id="dv5-uh-JgW"/>
+                                            <constraint firstItem="w3w-sd-Koq" firstAttribute="top" secondItem="j1R-ZM-m1A" secondAttribute="bottom" constant="8" symbolic="YES" id="eX4-ve-Sy0"/>
+                                            <constraint firstItem="sVq-8A-iDK" firstAttribute="top" secondItem="gzs-NF-KtI" secondAttribute="bottom" constant="8" symbolic="YES" id="eZs-KB-Ob9"/>
+                                            <constraint firstItem="gzs-NF-KtI" firstAttribute="top" secondItem="Q2N-oF-nf0" secondAttribute="bottom" constant="8" symbolic="YES" id="gwb-vH-FHg"/>
+                                            <constraint firstItem="txi-Pb-F6j" firstAttribute="top" secondItem="lXX-E6-STa" secondAttribute="bottom" constant="8" symbolic="YES" id="keC-Je-Q5v"/>
+                                            <constraint firstItem="sVq-8A-iDK" firstAttribute="trailing" secondItem="qn7-Qb-Day" secondAttribute="trailing" id="kta-a1-fPJ"/>
+                                            <constraint firstItem="qn7-Qb-Day" firstAttribute="trailing" secondItem="j1R-ZM-m1A" secondAttribute="trailing" id="psr-89-Ieu"/>
+                                            <constraint firstItem="blA-xR-AUz" firstAttribute="leading" secondItem="qn7-Qb-Day" secondAttribute="leading" id="roY-VV-m06"/>
+                                            <constraint firstItem="QmM-A8-dPr" firstAttribute="leading" secondItem="qn7-Qb-Day" secondAttribute="leading" id="vZM-oy-pjd"/>
+                                            <constraint firstItem="QmM-A8-dPr" firstAttribute="top" secondItem="sVq-8A-iDK" secondAttribute="bottom" constant="8" symbolic="YES" id="vql-s9-4nN"/>
+                                            <constraint firstItem="Q2N-oF-nf0" firstAttribute="top" secondItem="pbz-U1-bBK" secondAttribute="bottom" constant="8" symbolic="YES" id="wji-Zh-JT8"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ECL-h3-RFk" firstAttribute="leading" secondItem="7ab-d9-AUV" secondAttribute="leading" id="I79-kI-Mek"/>
+                                    <constraint firstAttribute="bottom" secondItem="ECL-h3-RFk" secondAttribute="bottom" id="YCF-2P-s3v"/>
+                                    <constraint firstAttribute="trailing" secondItem="ECL-h3-RFk" secondAttribute="trailing" id="jC9-bp-j2L"/>
+                                    <constraint firstItem="ECL-h3-RFk" firstAttribute="top" secondItem="7ab-d9-AUV" secondAttribute="top" id="u7V-EO-XAX"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7KH-T9-oPx" firstAttribute="top" secondItem="7ab-d9-AUV" secondAttribute="bottom" id="274-wR-75d"/>
+                            <constraint firstItem="7ab-d9-AUV" firstAttribute="top" secondItem="Mts-Mn-2Lf" secondAttribute="top" constant="20" id="fek-WA-95S"/>
+                            <constraint firstAttribute="trailing" secondItem="7ab-d9-AUV" secondAttribute="trailing" id="q7K-pW-qhM"/>
+                            <constraint firstItem="ECL-h3-RFk" firstAttribute="width" secondItem="Mts-Mn-2Lf" secondAttribute="width" id="wye-gA-qFz"/>
+                            <constraint firstItem="7ab-d9-AUV" firstAttribute="leading" secondItem="Mts-Mn-2Lf" secondAttribute="leading" id="y14-bF-M8J"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Bipolar Disorder" id="fVT-w6-Z0Q">
                         <barButtonItem key="leftBarButtonItem" image="Back-20.png" id="rB9-mN-lfm">
@@ -722,11 +901,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="videoView" destination="nSA-qo-PPG" id="8gK-2U-kkW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nUA-MZ-LF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3720.5" y="-1108.5"/>
+            <point key="canvasLocation" x="3736.5" y="-1492.5"/>
         </scene>
         <!--Depression-->
         <scene sceneID="FIT-b7-v2K">
@@ -753,7 +934,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98m-Sx-tOn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3750.5" y="-752.5"/>
+            <point key="canvasLocation" x="3736.5" y="-752.5"/>
         </scene>
         <!--Stress-->
         <scene sceneID="E1h-75-z7G">
@@ -780,7 +961,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIz-Pt-l4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3758.5" y="1.5"/>
+            <point key="canvasLocation" x="3736.5" y="1.5"/>
         </scene>
         <!--Mood Rating-->
         <scene sceneID="J3l-WG-zxD">
