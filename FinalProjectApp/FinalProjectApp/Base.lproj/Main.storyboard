@@ -14,8 +14,18 @@
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
         </mutableArray>
         <mutableArray key="Street Corner.ttf">
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
@@ -354,7 +364,29 @@
                     <view key="view" contentMode="scaleToFill" id="kuU-kx-u5n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cv3-nk-C2C">
+                                <rect key="frame" x="0.0" y="141" width="375" height="216"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6xn-qo-2l1">
+                                <rect key="frame" x="103" y="373" width="168" height="29"/>
+                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="19"/>
+                                <state key="normal" title="Select">
+                                    <color key="titleColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Submit:" destination="CzY-aj-caX" eventType="touchUpInside" id="AJt-FP-gqy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental Health Disorders" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mtg-W1-asF">
+                                <rect key="frame" x="77" y="106" width="221" height="27"/>
+                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="25"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Information" id="mGK-VL-5Tf">
                         <barButtonItem key="leftBarButtonItem" image="Menu Filled-20.png" id="S2t-hn-XzF">
@@ -363,7 +395,12 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="Picker1" destination="cv3-nk-C2C" id="jNI-Ml-afx"/>
                         <outlet property="menuButton" destination="S2t-hn-XzF" id="4Hc-Bc-V1p"/>
+                        <segue destination="UJC-0Z-A8X" kind="presentation" identifier="Anxiety" id="QF1-Jy-dpZ"/>
+                        <segue destination="DwR-r6-p2E" kind="presentation" identifier="Bipolar" id="Img-fs-VYp"/>
+                        <segue destination="eMD-Qc-66x" kind="presentation" identifier="Depression" id="1cb-iN-r9V"/>
+                        <segue destination="O5U-MB-4V4" kind="presentation" identifier="Stress" id="Unb-Jk-YUZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNp-Gm-aH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -499,6 +536,251 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRs-vm-hSC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2436.5" y="487.5"/>
+        </scene>
+        <!--Anxiety-->
+        <scene sceneID="jaD-xJ-WrY">
+            <objects>
+                <viewController id="lYG-ix-G96" customClass="ViewControllerAnxiety" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mdi-De-V6R"/>
+                        <viewControllerLayoutGuide type="bottom" id="xeV-gb-iHq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wzh-jp-7g9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7a4-j6-7GQ">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1080"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gIZ-zA-xdb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anxiety" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7H8-ZV-WQf">
+                                                <rect key="frame" x="117" y="55" width="140" height="42"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="42" id="h2u-q7-plP"/>
+                                                    <constraint firstAttribute="width" constant="140" id="ppZ-dm-e26"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="40"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is anxiety?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LhS-fp-EEv">
+                                                <rect key="frame" x="8" y="105" width="129" height="23"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="129" id="Ira-L5-DRD"/>
+                                                    <constraint firstAttribute="height" constant="23" id="OE0-w6-hNp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cF-v1-CQ3">
+                                                <rect key="frame" x="8" y="136" width="359" height="133"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="133" id="dw1-a2-9KI"/>
+                                                </constraints>
+                                                <string key="text">Anxiety is a word we use to describe feelings of unease, worry and fear. It incorporates both the emotions and the physical sensations we might experience when we are worried or nervous about something. Although we usually find it unpleasant, anxiety is related to the ‘fight or flight’ response – our normal biological reaction to feeling threatened.</string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3k5-mh-N34">
+                                                <rect key="frame" x="8" y="309" width="359" height="150"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="xTN-1E-euF"/>
+                                                </constraints>
+                                                <string key="text">Nausea, tense muscles and headaches, pins and needles, feeling light headed or dizzy, sweating or hot flushes, irregular heart beat, raised blood pressure, difficulty sleeping, panic attacks, feeling tense, nervousness, sense of dread, feeling like other people can see you're anxious and are looking at you, dwelling on negative experiences, feeling restless and feeling numb. </string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptoms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xw4-Ys-GT8">
+                                                <rect key="frame" x="8" y="277" width="76" height="24"/>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How can i help myself cope?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bO4-NS-nCA">
+                                                <rect key="frame" x="8" y="467" width="250" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="250" id="8AK-ZE-fIg"/>
+                                                    <constraint firstAttribute="height" constant="40" id="laZ-ku-vjS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Skh-Tj-pvv">
+                                                <rect key="frame" x="8" y="515" width="359" height="135"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="135" id="LxR-We-nmr"/>
+                                                </constraints>
+                                                <string key="text">Ways you can help yourself cope are by talking to someone you trust, breathing exercises, shifting your focus, listening to music, reassuring thoughts, pyhsical exercise, keeping a diary, eating a healthy diet, complementary therapies, joining a support group.</string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Talking about anxiety" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88r-IF-OXU">
+                                                <rect key="frame" x="8" y="658" width="158" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="158" id="6qa-Ik-diO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <webView contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="LWn-JK-XPC">
+                                                <rect key="frame" x="8" y="690" width="359" height="271"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="271" id="VOo-Sg-pbZ"/>
+                                                </constraints>
+                                            </webView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="3k5-mh-N34" firstAttribute="top" secondItem="Xw4-Ys-GT8" secondAttribute="bottom" constant="8" symbolic="YES" id="0P3-EV-fpj"/>
+                                            <constraint firstItem="LWn-JK-XPC" firstAttribute="leading" secondItem="88r-IF-OXU" secondAttribute="leading" id="1GC-8C-y65"/>
+                                            <constraint firstItem="LWn-JK-XPC" firstAttribute="trailing" secondItem="Skh-Tj-pvv" secondAttribute="trailing" id="1MQ-DV-KKl"/>
+                                            <constraint firstItem="5cF-v1-CQ3" firstAttribute="top" secondItem="LhS-fp-EEv" secondAttribute="bottom" constant="8" symbolic="YES" id="3Vg-te-Qdm"/>
+                                            <constraint firstItem="Xw4-Ys-GT8" firstAttribute="top" secondItem="5cF-v1-CQ3" secondAttribute="bottom" constant="8" symbolic="YES" id="5Ia-rQ-QnZ"/>
+                                            <constraint firstItem="LhS-fp-EEv" firstAttribute="top" secondItem="7H8-ZV-WQf" secondAttribute="bottom" constant="8" symbolic="YES" id="5Lh-Zp-S2G"/>
+                                            <constraint firstItem="Xw4-Ys-GT8" firstAttribute="leading" secondItem="3k5-mh-N34" secondAttribute="leading" id="9az-ON-DYm"/>
+                                            <constraint firstItem="5cF-v1-CQ3" firstAttribute="trailing" secondItem="3k5-mh-N34" secondAttribute="trailing" id="Dsh-M2-gGE"/>
+                                            <constraint firstItem="LWn-JK-XPC" firstAttribute="leading" secondItem="gIZ-zA-xdb" secondAttribute="leadingMargin" id="Pl7-bk-6FN"/>
+                                            <constraint firstItem="3k5-mh-N34" firstAttribute="trailing" secondItem="gIZ-zA-xdb" secondAttribute="trailingMargin" id="QVg-uj-BOW"/>
+                                            <constraint firstItem="Skh-Tj-pvv" firstAttribute="top" secondItem="bO4-NS-nCA" secondAttribute="bottom" constant="8" symbolic="YES" id="WJX-3M-9Gi"/>
+                                            <constraint firstItem="LWn-JK-XPC" firstAttribute="top" secondItem="88r-IF-OXU" secondAttribute="bottom" constant="8" symbolic="YES" id="Wll-J4-Fht"/>
+                                            <constraint firstItem="Skh-Tj-pvv" firstAttribute="leading" secondItem="bO4-NS-nCA" secondAttribute="leading" id="YXR-ju-bCd"/>
+                                            <constraint firstItem="7H8-ZV-WQf" firstAttribute="top" secondItem="gIZ-zA-xdb" secondAttribute="top" constant="55" id="bem-VW-hHu"/>
+                                            <constraint firstItem="88r-IF-OXU" firstAttribute="leading" secondItem="Skh-Tj-pvv" secondAttribute="leading" id="gdK-j4-bpJ"/>
+                                            <constraint firstItem="5cF-v1-CQ3" firstAttribute="leading" secondItem="LhS-fp-EEv" secondAttribute="leading" id="h4P-y9-M0p"/>
+                                            <constraint firstItem="bO4-NS-nCA" firstAttribute="top" secondItem="3k5-mh-N34" secondAttribute="bottom" constant="8" symbolic="YES" id="hc5-uq-Ttx"/>
+                                            <constraint firstItem="88r-IF-OXU" firstAttribute="top" secondItem="Skh-Tj-pvv" secondAttribute="bottom" constant="8" symbolic="YES" id="iZy-WV-8Mv"/>
+                                            <constraint firstItem="5cF-v1-CQ3" firstAttribute="leading" secondItem="Xw4-Ys-GT8" secondAttribute="leading" id="jf3-Ey-Dxo"/>
+                                            <constraint firstItem="bO4-NS-nCA" firstAttribute="leading" secondItem="3k5-mh-N34" secondAttribute="leading" id="qWA-6U-DmT"/>
+                                            <constraint firstItem="7H8-ZV-WQf" firstAttribute="centerX" secondItem="5cF-v1-CQ3" secondAttribute="centerX" id="ufK-ba-Thc"/>
+                                            <constraint firstItem="3k5-mh-N34" firstAttribute="trailing" secondItem="Skh-Tj-pvv" secondAttribute="trailing" id="vnK-lU-4W2"/>
+                                            <constraint firstAttribute="height" constant="1100" id="wQZ-Om-Mx5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="gIZ-zA-xdb" firstAttribute="top" secondItem="7a4-j6-7GQ" secondAttribute="top" constant="64" id="75o-cK-Lbo"/>
+                                    <constraint firstAttribute="trailing" secondItem="gIZ-zA-xdb" secondAttribute="trailing" id="RvR-YT-gmn"/>
+                                    <constraint firstItem="gIZ-zA-xdb" firstAttribute="leading" secondItem="7a4-j6-7GQ" secondAttribute="leading" id="SyL-Dd-EK8"/>
+                                    <constraint firstAttribute="bottom" secondItem="gIZ-zA-xdb" secondAttribute="bottom" constant="-84" id="W6n-ch-N6O"/>
+                                    <constraint firstItem="gIZ-zA-xdb" firstAttribute="centerX" secondItem="7a4-j6-7GQ" secondAttribute="centerX" id="d42-3I-5na"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7a4-j6-7GQ" firstAttribute="top" secondItem="wzh-jp-7g9" secondAttribute="top" constant="20" symbolic="YES" id="Bim-hL-GOk"/>
+                            <constraint firstItem="7a4-j6-7GQ" firstAttribute="leading" secondItem="wzh-jp-7g9" secondAttribute="leading" id="UCR-SX-fyh"/>
+                            <constraint firstItem="7a4-j6-7GQ" firstAttribute="bottom" secondItem="xeV-gb-iHq" secondAttribute="top" id="qfk-Jq-HUs"/>
+                            <constraint firstAttribute="trailing" secondItem="7a4-j6-7GQ" secondAttribute="trailing" id="w7o-8d-JCq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Anxiety" id="Q77-Yj-5mP">
+                        <barButtonItem key="leftBarButtonItem" image="Back-20.png" id="ElL-HV-y2L">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="back:" destination="lYG-ix-G96" id="ECd-hh-G4f"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1100"/>
+                    <connections>
+                        <outlet property="videoView" destination="LWn-JK-XPC" id="1Cn-UE-BTB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7mK-Mb-TUg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3736.5" y="-2292"/>
+        </scene>
+        <!--Bipolar Disorder-->
+        <scene sceneID="rkN-7N-hiV">
+            <objects>
+                <viewController id="Qe6-9K-rWy" customClass="ViewControllerBipolar" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Anb-8F-jrt"/>
+                        <viewControllerLayoutGuide type="bottom" id="7KH-T9-oPx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mts-Mn-2Lf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bipolar Disorder" id="fVT-w6-Z0Q">
+                        <barButtonItem key="leftBarButtonItem" image="Back-20.png" id="rB9-mN-lfm">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="back:" destination="Qe6-9K-rWy" id="Pjb-ni-X5m"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nUA-MZ-LF0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3720.5" y="-1108.5"/>
+        </scene>
+        <!--Depression-->
+        <scene sceneID="FIT-b7-v2K">
+            <objects>
+                <viewController id="cS4-yM-Dsa" customClass="ViewControllerDepression" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6KT-6A-XSL"/>
+                        <viewControllerLayoutGuide type="bottom" id="i3k-is-Msx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XgM-6L-5cG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Depression" id="JoG-dd-1yd">
+                        <barButtonItem key="leftBarButtonItem" image="Back-20.png" id="dDd-6O-ske">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="back:" destination="cS4-yM-Dsa" id="Q41-xy-RWL"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="98m-Sx-tOn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3750.5" y="-752.5"/>
+        </scene>
+        <!--Stress-->
+        <scene sceneID="E1h-75-z7G">
+            <objects>
+                <viewController id="bZO-4Y-Dgu" customClass="ViewControllerStress" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QUP-LF-HKb"/>
+                        <viewControllerLayoutGuide type="bottom" id="P36-KL-VqX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="x2E-53-g6m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Stress" id="gXq-13-evM">
+                        <barButtonItem key="leftBarButtonItem" image="Back-20.png" id="13K-MW-69g">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="back:" destination="bZO-4Y-Dgu" id="cbS-Q8-M2q"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fIz-Pt-l4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3758.5" y="1.5"/>
         </scene>
         <!--Mood Rating-->
         <scene sceneID="J3l-WG-zxD">
@@ -1144,8 +1426,105 @@
             </objects>
             <point key="canvasLocation" x="3479.5" y="1248.5"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6SD-WX-cnv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eMD-Qc-66x" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="O5N-7d-gYa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cS4-yM-Dsa" kind="relationship" relationship="rootViewController" id="TCl-YI-gim"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsg-iQ-HrL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3145.5" y="-752.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="j9a-Y7-odO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DwR-r6-p2E" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TwI-bC-sYd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Qe6-9K-rWy" kind="relationship" relationship="rootViewController" id="aJx-05-Rqz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eJ4-UA-owU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3145.5" y="-1492.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Lna-jn-ttb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UJC-0Z-A8X" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Yq-d3-ZEb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lYG-ix-G96" kind="relationship" relationship="rootViewController" id="qzW-RI-wfc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ig8-pe-9p4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3145.5" y="-2291.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Ny-qw-av6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O5U-MB-4V4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1lG-tR-SLe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bZO-4Y-Dgu" kind="relationship" relationship="rootViewController" id="bMS-kP-EW4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEZ-fl-eX1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3145.5" y="1.5"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="Back-20.png" width="20" height="20"/>
         <image name="Menu Filled-20.png" width="20" height="20"/>
         <image name="header.jpg" width="250" height="162"/>
         <image name="pinkbuttonRecord.png" width="256" height="255"/>
