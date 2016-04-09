@@ -10,8 +10,17 @@ import UIKit
 
 class ViewControllerDepression: UIViewController {
 
+    @IBOutlet var videoView: UIWebView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let youtubeURL = "https://www.youtube.com/embed/m82jEQXRurg"
+        
+        videoView.allowsInlineMediaPlayback = true
+        
+        videoView.loadHTMLString("<iframe width=\"\(videoView.frame.width)\" height=\"\(videoView.frame.height)\" src=\"\(youtubeURL)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe>", baseURL: nil)
 
         // Do any additional setup after loading the view.
     }
