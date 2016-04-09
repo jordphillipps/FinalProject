@@ -32,8 +32,15 @@
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
         </mutableArray>
         <mutableArray key="Street Corner.ttf">
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
@@ -944,8 +951,8 @@
                                                 <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is depression" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2j-nh-IFX">
-                                                <rect key="frame" x="8" y="110" width="146" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is depression?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2j-nh-IFX">
+                                                <rect key="frame" x="8" y="110" width="146" height="24"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="qen-lz-yXp"/>
                                                     <constraint firstAttribute="width" constant="146" id="vMA-76-yJx"/>
@@ -1087,9 +1094,119 @@
                         <viewControllerLayoutGuide type="bottom" id="P36-KL-VqX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="x2E-53-g6m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cj7-iN-sPd">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1130"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="APC-F8-yBy">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stress" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obr-cK-MpS">
+                                                <rect key="frame" x="136" y="52" width="102" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="102" id="M3N-o6-OMx"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="40"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is stress?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiq-t3-BNh">
+                                                <rect key="frame" x="8" y="108" width="155" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="155" id="5cv-Lv-Vcq"/>
+                                                    <constraint firstAttribute="height" constant="21" id="lI4-Bu-TER"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFP-l2-yyW">
+                                                <rect key="frame" x="8" y="137" width="359" height="104"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="104" id="Ivy-GD-oga"/>
+                                                </constraints>
+                                                <string key="text">We all know what it's like to feel stressed, but it's not easy to pin down exactly what stress is. When we say things like "this is stressful" or "im stressed" we might be talking about: Situations or events that put pressure on us or our reaction to being placed under pressure. </string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Symptoms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e08-vO-Wmp">
+                                                <rect key="frame" x="8" y="249" width="155" height="24"/>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLF-7S-Z7c">
+                                                <rect key="frame" x="8" y="281" width="359" height="181"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="181" id="GbY-8h-Fpc"/>
+                                                </constraints>
+                                                <mutableString key="text">When you are feeling stress you may feel irritable, aggressive impatient or wound up, over-burdened, anxious or afraid, unable to switch off, depressed, uniterested in life, neglected, finding it hard to make decisions, avoiding situations that are troubling you, snapping at people, unable to concentrate, restless, feeling tearful or crying, shallow breathing, problems getting to sleep, sexual problems such as losing interst, tired all the time, headaches, chest pains, high blood pressure and feeling sick, dizzy or fainting</mutableString>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How can i deal with stress?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbD-Hu-UH0">
+                                                <rect key="frame" x="8" y="470" width="207" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="207" id="Ulg-5f-9aQ"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4if-K8-57r">
+                                                <rect key="frame" x="8" y="502" width="359" height="327"/>
+                                                <mutableString key="text">Even though there are likely to be some things happening in your life that you can't control, there are still lots of practical things you can do to manage the amount of pressure you're under day to day. Firstly indetify your triggers. Working out what triggers stress for you can help you anticipate problems and think of ways to solve them. Secondly organising your time. Making some adjustments to the way you organise your time could help you feel more in contol of any tasks you're facing, and more able to handle pressure. Thirdy address some of the causes. Although there will probably lots of things in your life that you can't do anything about. there might be some practical ways you coud resolve or improve some of the issues that are putting pressure on you. Lastly accept the things you can't change. It's not easy, but accepting that there are some things happening to you that you probably can't do anything about will help you focus your time and energy more productively.</mutableString>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="hbD-Hu-UH0" firstAttribute="leading" secondItem="XLF-7S-Z7c" secondAttribute="leading" id="FA1-ch-yGW"/>
+                                            <constraint firstItem="4if-K8-57r" firstAttribute="top" secondItem="hbD-Hu-UH0" secondAttribute="bottom" constant="8" symbolic="YES" id="Gsl-hh-mzf"/>
+                                            <constraint firstItem="hbD-Hu-UH0" firstAttribute="leading" secondItem="4if-K8-57r" secondAttribute="leading" id="Jha-3b-6GG"/>
+                                            <constraint firstItem="xFP-l2-yyW" firstAttribute="top" secondItem="qiq-t3-BNh" secondAttribute="bottom" constant="8" symbolic="YES" id="K99-cJ-ovU"/>
+                                            <constraint firstItem="obr-cK-MpS" firstAttribute="top" secondItem="APC-F8-yBy" secondAttribute="top" constant="52" id="LRH-me-9vB"/>
+                                            <constraint firstAttribute="height" constant="900" id="P4S-LN-uZ3"/>
+                                            <constraint firstItem="4if-K8-57r" firstAttribute="trailing" secondItem="XLF-7S-Z7c" secondAttribute="trailing" id="Pes-QF-zj5"/>
+                                            <constraint firstItem="e08-vO-Wmp" firstAttribute="trailing" secondItem="qiq-t3-BNh" secondAttribute="trailing" id="Sw8-n5-6oA"/>
+                                            <constraint firstItem="XLF-7S-Z7c" firstAttribute="trailing" secondItem="xFP-l2-yyW" secondAttribute="trailing" id="UEx-zj-jKE"/>
+                                            <constraint firstItem="XLF-7S-Z7c" firstAttribute="top" secondItem="e08-vO-Wmp" secondAttribute="bottom" constant="8" symbolic="YES" id="UTd-KG-5CN"/>
+                                            <constraint firstItem="xFP-l2-yyW" firstAttribute="centerX" secondItem="obr-cK-MpS" secondAttribute="centerX" id="WCj-eS-hGc"/>
+                                            <constraint firstItem="xFP-l2-yyW" firstAttribute="leading" secondItem="qiq-t3-BNh" secondAttribute="leading" id="a96-Xg-1wV"/>
+                                            <constraint firstItem="hbD-Hu-UH0" firstAttribute="top" secondItem="XLF-7S-Z7c" secondAttribute="bottom" constant="8" symbolic="YES" id="eb4-Uk-fer"/>
+                                            <constraint firstItem="e08-vO-Wmp" firstAttribute="leading" secondItem="XLF-7S-Z7c" secondAttribute="leading" id="iHG-F2-RyT"/>
+                                            <constraint firstItem="obr-cK-MpS" firstAttribute="centerX" secondItem="APC-F8-yBy" secondAttribute="centerX" id="oS5-YN-h0b"/>
+                                            <constraint firstItem="e08-vO-Wmp" firstAttribute="top" secondItem="xFP-l2-yyW" secondAttribute="bottom" constant="8" symbolic="YES" id="qqg-iU-1HR"/>
+                                            <constraint firstAttribute="bottom" secondItem="4if-K8-57r" secondAttribute="bottom" constant="71" id="rDA-cH-Emj"/>
+                                            <constraint firstItem="hbD-Hu-UH0" firstAttribute="leading" secondItem="APC-F8-yBy" secondAttribute="leadingMargin" id="rK5-aE-vvU"/>
+                                            <constraint firstItem="e08-vO-Wmp" firstAttribute="leading" secondItem="xFP-l2-yyW" secondAttribute="leading" id="ucm-Bi-vYb"/>
+                                            <constraint firstItem="qiq-t3-BNh" firstAttribute="top" secondItem="obr-cK-MpS" secondAttribute="bottom" constant="8" symbolic="YES" id="ymg-oa-cu3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="APC-F8-yBy" firstAttribute="leading" secondItem="cj7-iN-sPd" secondAttribute="leading" id="6ML-pT-qRB"/>
+                                    <constraint firstAttribute="trailing" secondItem="APC-F8-yBy" secondAttribute="trailing" id="bbQ-sb-zKG"/>
+                                    <constraint firstAttribute="bottom" secondItem="APC-F8-yBy" secondAttribute="bottom" id="hnR-tY-ikg"/>
+                                    <constraint firstItem="APC-F8-yBy" firstAttribute="top" secondItem="cj7-iN-sPd" secondAttribute="top" id="tKl-YN-oLq"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="APC-F8-yBy" firstAttribute="width" secondItem="x2E-53-g6m" secondAttribute="width" id="N3A-k2-AWn"/>
+                            <constraint firstItem="cj7-iN-sPd" firstAttribute="top" secondItem="x2E-53-g6m" secondAttribute="top" constant="20" id="V1v-ay-mFu"/>
+                            <constraint firstAttribute="trailing" secondItem="cj7-iN-sPd" secondAttribute="trailing" id="Yku-YX-Pik"/>
+                            <constraint firstItem="P36-KL-VqX" firstAttribute="top" secondItem="cj7-iN-sPd" secondAttribute="bottom" id="aXW-n8-tRZ"/>
+                            <constraint firstItem="cj7-iN-sPd" firstAttribute="leading" secondItem="x2E-53-g6m" secondAttribute="leading" id="guc-tt-Qvl"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Stress" id="gXq-13-evM">
                         <barButtonItem key="leftBarButtonItem" image="Back-20.png" id="13K-MW-69g">
@@ -1099,11 +1216,12 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="900"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fIz-Pt-l4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3728.5" y="1.5"/>
+            <point key="canvasLocation" x="3736.5" y="179"/>
         </scene>
         <!--Mood Rating-->
         <scene sceneID="J3l-WG-zxD">
