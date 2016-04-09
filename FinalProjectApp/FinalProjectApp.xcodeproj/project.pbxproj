@@ -16,6 +16,7 @@
 		D155005B1CB913F70023C9DF /* ViewControllerBipolar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155005A1CB913F70023C9DF /* ViewControllerBipolar.swift */; settings = {ASSET_TAGS = (); }; };
 		D155005D1CB914070023C9DF /* ViewControllerDepression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155005C1CB914070023C9DF /* ViewControllerDepression.swift */; settings = {ASSET_TAGS = (); }; };
 		D155005F1CB914150023C9DF /* ViewControllerStress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155005E1CB914150023C9DF /* ViewControllerStress.swift */; settings = {ASSET_TAGS = (); }; };
+		D15500611CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */; settings = {ASSET_TAGS = (); }; };
 		D1BA1A991CB2BED80033F32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A981CB2BED80033F32C /* AppDelegate.swift */; };
 		D1BA1A9E1CB2BED80033F32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1A9C1CB2BED80033F32C /* Main.storyboard */; };
 		D1BA1AA11CB2BED80033F32C /* FinalProjectApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A9F1CB2BED80033F32C /* FinalProjectApp.xcdatamodeld */; };
@@ -91,6 +92,7 @@
 		D155005A1CB913F70023C9DF /* ViewControllerBipolar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBipolar.swift; sourceTree = "<group>"; };
 		D155005C1CB914070023C9DF /* ViewControllerDepression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDepression.swift; sourceTree = "<group>"; };
 		D155005E1CB914150023C9DF /* ViewControllerStress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerStress.swift; sourceTree = "<group>"; };
+		D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Book_stack_Blue_on_white_RGB_large.jpg; sourceTree = "<group>"; };
 		D1BA1A951CB2BED80033F32C /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA1A981CB2BED80033F32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1BA1A9D1CB2BED80033F32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -299,6 +301,7 @@
 				D1BA1B131CB2C67E0033F32C /* startRecordSound.m4a */,
 				D15500151CB56D670023C9DF /* whitebuttonNormal.png */,
 				D15500171CB56D700023C9DF /* pinkbuttonRecord.png */,
+				D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */,
 				D15500561CB912EB0023C9DF /* Back-20.png */,
 				D1BA1B041CB2C11E0033F32C /* Street Corner.ttf */,
 				D1BA1B051CB2C11E0033F32C /* KGSmallTownSouthernGirl.ttf */,
@@ -423,6 +426,7 @@
 				D1BA1B111CB2C6740033F32C /* microphoneDepressed.png in Resources */,
 				D1BA1AA31CB2BED80033F32C /* Assets.xcassets in Resources */,
 				D1BA1AFE1CB2C1140033F32C /* header.jpg in Resources */,
+				D15500611CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg in Resources */,
 				D1BA1B071CB2C11E0033F32C /* KGSmallTownSouthernGirl.ttf in Resources */,
 				D1BA1B1C1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg in Resources */,
 				D1BA1B011CB2C1140033F32C /* Lock Filled-50.png in Resources */,

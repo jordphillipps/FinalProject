@@ -84,6 +84,14 @@ class ViewController2: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
     }
     
+    func pickerView(pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        
+        let titleData = Array[row]
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSForegroundColorAttributeName: UIColor.whiteColor()])
+        
+        return myTitle
+    }
+    
     
     
 }
