@@ -17,6 +17,8 @@
 		D155005D1CB914070023C9DF /* ViewControllerDepression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155005C1CB914070023C9DF /* ViewControllerDepression.swift */; settings = {ASSET_TAGS = (); }; };
 		D155005F1CB914150023C9DF /* ViewControllerStress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155005E1CB914150023C9DF /* ViewControllerStress.swift */; settings = {ASSET_TAGS = (); }; };
 		D15500611CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */; settings = {ASSET_TAGS = (); }; };
+		D16FBECF1CBA68F900973A6A /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBECE1CBA68F900973A6A /* ViewController6.swift */; settings = {ASSET_TAGS = (); }; };
+		D16FBED11CBA690F00973A6A /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBED01CBA690F00973A6A /* ViewController7.swift */; settings = {ASSET_TAGS = (); }; };
 		D1BA1A991CB2BED80033F32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A981CB2BED80033F32C /* AppDelegate.swift */; };
 		D1BA1A9E1CB2BED80033F32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1A9C1CB2BED80033F32C /* Main.storyboard */; };
 		D1BA1AA11CB2BED80033F32C /* FinalProjectApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A9F1CB2BED80033F32C /* FinalProjectApp.xcdatamodeld */; };
@@ -93,6 +95,8 @@
 		D155005C1CB914070023C9DF /* ViewControllerDepression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDepression.swift; sourceTree = "<group>"; };
 		D155005E1CB914150023C9DF /* ViewControllerStress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerStress.swift; sourceTree = "<group>"; };
 		D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Book_stack_Blue_on_white_RGB_large.jpg; sourceTree = "<group>"; };
+		D16FBECE1CBA68F900973A6A /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
+		D16FBED01CBA690F00973A6A /* ViewController7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
 		D1BA1A951CB2BED80033F32C /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA1A981CB2BED80033F32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1BA1A9D1CB2BED80033F32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -233,6 +237,8 @@
 				D1BA1AEF1CB2C0FB0033F32C /* ViewController3.swift */,
 				D1BA1AF01CB2C0FB0033F32C /* ViewController4.swift */,
 				D1BA1AF11CB2C0FB0033F32C /* ViewController5.swift */,
+				D16FBECE1CBA68F900973A6A /* ViewController6.swift */,
+				D16FBED01CBA690F00973A6A /* ViewController7.swift */,
 				D1BA1AA21CB2BED80033F32C /* Assets.xcassets */,
 				D1BA1A9C1CB2BED80033F32C /* Main.storyboard */,
 				D15500111CB52AD40023C9DF /* ViewControllerMood1.swift */,
@@ -472,7 +478,9 @@
 				D1BA1AF21CB2C0FB0033F32C /* ViewController.swift in Sources */,
 				D1BA1A991CB2BED80033F32C /* AppDelegate.swift in Sources */,
 				D15500141CB53F8B0023C9DF /* ViewControllerMood2.swift in Sources */,
+				D16FBED11CBA690F00973A6A /* ViewController7.swift in Sources */,
 				D1BA1AA11CB2BED80033F32C /* FinalProjectApp.xcdatamodeld in Sources */,
+				D16FBECF1CBA68F900973A6A /* ViewController6.swift in Sources */,
 				D155005F1CB914150023C9DF /* ViewControllerStress.swift in Sources */,
 				D1BA1B1A1CB2CC0C0033F32C /* Note.swift in Sources */,
 			);

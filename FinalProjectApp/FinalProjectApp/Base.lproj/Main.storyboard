@@ -36,6 +36,8 @@
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
         </mutableArray>
         <mutableArray key="Street Corner.ttf">
             <string>StreetCorner</string>
@@ -350,7 +352,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OWD-EH-mQQ">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Action List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OWD-EH-mQQ">
                                                     <rect key="frame" x="15" y="0.0" width="345" height="44"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -363,6 +365,50 @@
                                         <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <segue destination="PBS-Ot-flP" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="Q11-hO-aYV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="QxC-mr-W6O" style="IBUITableViewCellStyleDefault" id="4yE-vk-Ngy">
+                                        <rect key="frame" x="0.0" y="264" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4yE-vk-Ngy" id="2tT-WG-OTb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="News" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QxC-mr-W6O">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="25"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="U9u-17-Dd5" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="zjh-2b-myz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="seh-Ea-vLs" style="IBUITableViewCellStyleDefault" id="LRS-JJ-lul">
+                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LRS-JJ-lul" id="k9p-Ej-kMi">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Contact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="seh-Ea-vLs">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="25"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.027450980390000001" green="0.25490196079999999" blue="0.51764705879999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="4Vm-wy-VxN" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="XnC-Qo-HrN"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -1030,7 +1076,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="203" id="aJh-8v-J6h"/>
                                                 </constraints>
-                                                <mutableString key="text">An important concept is that there are usually no instant solutions to problems in life. Solving problems involves time, energy anf work. Firstly you need to make a conscious effort to break the cycle of negativity. Secondly keep active. Research and individual personal experience show that regualr exercise can be very effective in lifting your mood and increasing your energy levels. Thirdly connect with other people. Keeping in touch with people can make you feel a bit more grounded and sometimes get things in perspective. Lastly, care for yourself. </mutableString>
+                                                <string key="text">An important concept is that there are usually no instant solutions to problems in life. Solving problems involves time, energy anf work. Firstly you need to make a conscious effort to break the cycle of negativity. Secondly keep active. Research and individual personal experience show that regualr exercise can be very effective in lifting your mood and increasing your energy levels. Thirdly connect with other people. Keeping in touch with people can make you feel a bit more grounded and sometimes get things in perspective. Lastly, care for yourself. </string>
                                                 <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1169,7 +1215,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="181" id="GbY-8h-Fpc"/>
                                                 </constraints>
-                                                <mutableString key="text">When you are feeling stress you may feel irritable, aggressive impatient or wound up, over-burdened, anxious or afraid, unable to switch off, depressed, uniterested in life, neglected, finding it hard to make decisions, avoiding situations that are troubling you, snapping at people, unable to concentrate, restless, feeling tearful or crying, shallow breathing, problems getting to sleep, sexual problems such as losing interst, tired all the time, headaches, chest pains, high blood pressure and feeling sick, dizzy or fainting</mutableString>
+                                                <string key="text">When you are feeling stress you may feel irritable, aggressive impatient or wound up, over-burdened, anxious or afraid, unable to switch off, depressed, uniterested in life, neglected, finding it hard to make decisions, avoiding situations that are troubling you, snapping at people, unable to concentrate, restless, feeling tearful or crying, shallow breathing, problems getting to sleep, sexual problems such as losing interst, tired all the time, headaches, chest pains, high blood pressure and feeling sick, dizzy or fainting</string>
                                                 <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1185,7 +1231,7 @@
                                             </label>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4if-K8-57r">
                                                 <rect key="frame" x="8" y="502" width="359" height="327"/>
-                                                <mutableString key="text">Even though there are likely to be some things happening in your life that you can't control, there are still lots of practical things you can do to manage the amount of pressure you're under day to day. Firstly indetify your triggers. Working out what triggers stress for you can help you anticipate problems and think of ways to solve them. Secondly organising your time. Making some adjustments to the way you organise your time could help you feel more in contol of any tasks you're facing, and more able to handle pressure. Thirdy address some of the causes. Although there will probably lots of things in your life that you can't do anything about. there might be some practical ways you coud resolve or improve some of the issues that are putting pressure on you. Lastly accept the things you can't change. It's not easy, but accepting that there are some things happening to you that you probably can't do anything about will help you focus your time and energy more productively.</mutableString>
+                                                <string key="text">Even though there are likely to be some things happening in your life that you can't control, there are still lots of practical things you can do to manage the amount of pressure you're under day to day. Firstly indetify your triggers. Working out what triggers stress for you can help you anticipate problems and think of ways to solve them. Secondly organising your time. Making some adjustments to the way you organise your time could help you feel more in contol of any tasks you're facing, and more able to handle pressure. Thirdy address some of the causes. Although there will probably lots of things in your life that you can't do anything about. there might be some practical ways you coud resolve or improve some of the issues that are putting pressure on you. Lastly accept the things you can't change. It's not easy, but accepting that there are some things happening to you that you probably can't do anything about will help you focus your time and energy more productively.</string>
                                                 <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1670,7 +1716,7 @@
             </objects>
             <point key="canvasLocation" x="4048.5" y="1248.5"/>
         </scene>
-        <!--Contact-->
+        <!--Action List-->
         <scene sceneID="HkU-1G-lw6">
             <objects>
                 <viewController id="FNH-JB-YJl" customClass="ViewController5" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -1683,7 +1729,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Contact" id="dsS-Tu-rCb">
+                    <navigationItem key="navigationItem" title="Action List" id="dsS-Tu-rCb">
                         <barButtonItem key="leftBarButtonItem" image="Menu Filled-20.png" id="Rnf-LT-uuX">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
@@ -1845,6 +1891,58 @@
             </objects>
             <point key="canvasLocation" x="1451.5" y="2007.5"/>
         </scene>
+        <!--News-->
+        <scene sceneID="kTn-Tf-58e">
+            <objects>
+                <viewController id="Cbl-FV-1ff" customClass="ViewController6" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AY9-hf-v8L"/>
+                        <viewControllerLayoutGuide type="bottom" id="tbB-gy-kQ1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Eqf-Hp-gyH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="News" id="wXM-aR-8ak">
+                        <barButtonItem key="leftBarButtonItem" image="Menu Filled-20.png" id="05X-0K-1J0">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="05X-0K-1J0" id="7PY-kh-gap"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o2j-Eu-gJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1943.5" y="2740.5"/>
+        </scene>
+        <!--Contact-->
+        <scene sceneID="mKe-aI-gIo">
+            <objects>
+                <viewController id="hmO-UB-18N" customClass="ViewController7" customModule="FinalProjectApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZHs-cl-PVw"/>
+                        <viewControllerLayoutGuide type="bottom" id="jxm-ff-Ycj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="17F-Y0-59g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contact" id="eWF-Uj-gC0">
+                        <barButtonItem key="leftBarButtonItem" image="Menu Filled-20.png" id="0YQ-qo-D4D">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="0YQ-qo-D4D" id="RA3-x4-mGU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VGi-Hg-TGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1943.5" y="3478.5"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="QDh-Hd-TJX">
             <objects>
@@ -1988,6 +2086,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aEZ-fl-eX1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3145.5" y="1.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="v1G-C9-VpV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U9u-17-Dd5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="viN-pk-hak">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Cbl-FV-1ff" kind="relationship" relationship="rootViewController" id="guq-OG-bSg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dbv-hJ-lKU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1451.5" y="2748.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dGx-ig-348">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4Vm-wy-VxN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qas-UM-lCs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="27"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hmO-UB-18N" kind="relationship" relationship="rootViewController" id="O2b-Dj-sXu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z75-hj-EDO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1451.5" y="3478.5"/>
         </scene>
     </scenes>
     <resources>
