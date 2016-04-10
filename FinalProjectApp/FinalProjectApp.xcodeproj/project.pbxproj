@@ -67,6 +67,7 @@
 		D1BA1B1C1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1B1B1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg */; settings = {ASSET_TAGS = (); }; };
 		D1EA39211CBA9C77003870EF /* Chair_RGB_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1EA39201CBA9C77003870EF /* Chair_RGB_large.jpg */; settings = {ASSET_TAGS = (); }; };
 		D1EA39231CBA9CA4003870EF /* newsletter winter 2015.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D1EA39221CBA9CA4003870EF /* newsletter winter 2015.pdf */; settings = {ASSET_TAGS = (); }; };
+		D1EA39251CBAA82E003870EF /* Telephone_RGB_Large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D1EA39241CBAA82E003870EF /* Telephone_RGB_Large.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,7 @@
 		D1BA1B1B1CB2EA430033F32C /* Microphone_Blue_on_yellow_RGB_small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Microphone_Blue_on_yellow_RGB_small.jpg; sourceTree = "<group>"; };
 		D1EA39201CBA9C77003870EF /* Chair_RGB_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chair_RGB_large.jpg; sourceTree = "<group>"; };
 		D1EA39221CBA9CA4003870EF /* newsletter winter 2015.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "newsletter winter 2015.pdf"; sourceTree = "<group>"; };
+		D1EA39241CBAA82E003870EF /* Telephone_RGB_Large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Telephone_RGB_Large.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +314,7 @@
 				D15500151CB56D670023C9DF /* whitebuttonNormal.png */,
 				D15500171CB56D700023C9DF /* pinkbuttonRecord.png */,
 				D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */,
+				D1EA39241CBAA82E003870EF /* Telephone_RGB_Large.jpg */,
 				D1EA39201CBA9C77003870EF /* Chair_RGB_large.jpg */,
 				D15500561CB912EB0023C9DF /* Back-20.png */,
 				D1BA1B041CB2C11E0033F32C /* Street Corner.ttf */,
@@ -434,6 +437,7 @@
 				D1BA1B021CB2C1140033F32C /* Menu Filled-20.png in Resources */,
 				D1BA1AFF1CB2C1140033F32C /* Contacts Filled-50.png in Resources */,
 				D1BA1B061CB2C11E0033F32C /* Street Corner.ttf in Resources */,
+				D1EA39251CBAA82E003870EF /* Telephone_RGB_Large.jpg in Resources */,
 				D1BA1B031CB2C1140033F32C /* Key Filled-50.png in Resources */,
 				D15500571CB912EB0023C9DF /* Back-20.png in Resources */,
 				D1BA1B111CB2C6740033F32C /* microphoneDepressed.png in Resources */,
