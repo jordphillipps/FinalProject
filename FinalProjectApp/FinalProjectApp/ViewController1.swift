@@ -7,10 +7,20 @@
 //
 
 import UIKit
+import QuickLook
 
-class ViewController1: UIViewController {
+class ViewController1: UIViewController, QLPreviewControllerDataSource, QLPreviewControllerDelegate {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    
+    @IBAction func viewPDFPressed(sender: AnyObject) {
+        
+        let viewPDF = QLPreviewController()
+        viewPDF.dataSource = self
+        
+        self.presentViewController(viewPDF, animated: true, completion: nil)
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,15 +38,17 @@ class ViewController1: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func numberOfPreviewItemsInPreviewController(controller: QLPreviewController) -> Int {
+        return 1
     }
-    */
+    
+    func previewController(controller: QLPreviewController, previewItemAtIndex index: Int) -> QLPreviewItem {
+        let path = NSBundle.mainBundle().pathForResource("newsletter winter 2015", ofType: "pdf")
+        let url = NSURL.fileURLWithPath(path!)
+        
+        return url
+    }
+
+   
 
 }

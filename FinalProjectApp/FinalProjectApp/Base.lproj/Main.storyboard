@@ -38,8 +38,23 @@
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
             <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
+            <string>KGSmallTownSouthernGirl</string>
         </mutableArray>
         <mutableArray key="Street Corner.ttf">
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
+            <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
             <string>StreetCorner</string>
@@ -481,7 +496,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RNp-Gm-aH6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1951.5" y="-266.5"/>
+            <point key="canvasLocation" x="1943.5" y="356.5"/>
         </scene>
         <!--Journal-->
         <scene sceneID="V0O-hs-MKW">
@@ -1784,22 +1799,221 @@
                         <viewControllerLayoutGuide type="bottom" id="VNe-nj-9K1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="76e-Fd-YB3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyH-ZS-DwF">
-                                <rect key="frame" x="0.0" y="20" width="375" height="680"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QyH-ZS-DwF">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1400"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6y6-kz-mtK">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="700"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1400"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="header.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rlN-Vg-cv0">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rlN-Vg-cv0">
                                                 <rect key="frame" x="67" y="44" width="240" height="128"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="128" id="MrK-bX-5Ez"/>
+                                                </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who We Are" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wua-C6-QdK">
+                                                <rect key="frame" x="8" y="180" width="92" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="Mot-uM-Ohi"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yx9-dd-yyh">
+                                                <rect key="frame" x="8" y="212" width="359" height="78"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="78" id="2Qx-wA-xTx"/>
+                                                </constraints>
+                                                <string key="text">Carrick Mind offers support to anyone in the Falmouth, Truro and surrounding areas who is experiencing or recovering from mental ill health, for example depression or anxiety. </string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What We Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuz-RQ-Km0">
+                                                <rect key="frame" x="9" y="298" width="91" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="3hm-sa-Nue"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HCd-vu-MHC">
+                                                <rect key="frame" x="9" y="330" width="358" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="IOf-1i-a0H"/>
+                                                </constraints>
+                                                <mutableString key="text">At Carrick Mind we aim to provide advice and support to empower anyone experiencing a mental health problem to take control of their recovery. We also campaign to improve services, raise awareness and promote understanding. We believe that no-one should have to face a mental health problem alone. We help improve life skills, encourage independence, help people socialise and provide a space to share ideas and concerns. We activiely encourage involement in the local community and proide training and support to our staff and volunteers. </mutableString>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Our Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWo-cC-9Wj">
+                                                <rect key="frame" x="9" y="539" width="124" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="VNj-kK-fA1"/>
+                                                    <constraint firstAttribute="width" constant="124" id="s1k-Gu-1FS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Support Groups" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wog-7N-9m7">
+                                                <rect key="frame" x="9" y="571" width="134" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="EFn-dJ-gzS"/>
+                                                    <constraint firstAttribute="width" constant="134" id="kRJ-vU-cMr"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="17"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="- Falmouth every Thursday between 10:30am and 12:30pm." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cgy-Jv-xpp">
+                                                <rect key="frame" x="8" y="600" width="359" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="0SO-Qq-YrL"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="- Truro every Tuesday betwen 10:00am and 12:00pm." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jdM-D2-wwn">
+                                                <rect key="frame" x="9" y="656" width="359" height="33"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="33" id="uMY-aS-lqn"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="- Young Persons Group every Wednesday between 10:00am and 12:00pm" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="26h-At-j5c">
+                                                <rect key="frame" x="9" y="697" width="359" height="49"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="49" id="tIK-jf-1Fn"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allotment Project" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eh6-dh-HKB">
+                                                <rect key="frame" x="8" y="754" width="111" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="21" id="MBH-bT-9uj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="17"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="We facilitae an allotment Group in Falmouth every Tuesday between 10:00am and 1:00pm." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fHh-jI-gSb">
+                                                <rect key="frame" x="9" y="783" width="358" height="49"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="49" id="xkv-Bo-pMn"/>
+                                                </constraints>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One to One Befriending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ict-yN-MMo">
+                                                <rect key="frame" x="9" y="840" width="152" height="21"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="152" id="1cx-bv-84P"/>
+                                                    <constraint firstAttribute="height" constant="21" id="yhf-B6-2bj"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="17"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="33o-p7-Tqw">
+                                                <rect key="frame" x="8" y="869" width="359" height="81"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="81" id="sr4-61-rsL"/>
+                                                </constraints>
+                                                <string key="text">Our trained volunteers meet with clients on a one to one basis and provide social support, access to community activities and support in developing a specific skill or confidence.</string>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nSq-jv-MwT">
+                                                <rect key="frame" x="8" y="990" width="359" height="30"/>
+                                                <color key="backgroundColor" red="0.99215686270000003" green="0.76470588240000004" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="sAB-sH-qPG"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="StreetCorner" family="Street Corner" pointSize="15"/>
+                                                <state key="normal" title="Click here to view newsletter">
+                                                    <color key="titleColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="viewPDFPressed:" destination="TCu-4u-Qlx" eventType="touchUpInside" id="6tm-Qo-LhL"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Chair_RGB_large.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="c1s-JY-hxa">
+                                                <rect key="frame" x="9" y="1037" width="358" height="324"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QO7-D9-zSJ">
+                                                <rect key="frame" x="9" y="958" width="42" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="42" id="aJ6-0X-99P"/>
+                                                    <constraint firstAttribute="height" constant="24" id="mua-dM-r3V"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="KGSmallTownSouthernGirl" family="KG Small Town Southern Girl" pointSize="20"/>
+                                                <color key="textColor" red="0.078431372550000003" green="0.21176470589999999" blue="0.48627450979999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="700" id="Pmy-SQ-ciA"/>
+                                            <constraint firstItem="zuz-RQ-Km0" firstAttribute="top" secondItem="yx9-dd-yyh" secondAttribute="bottom" constant="8" symbolic="YES" id="1XW-El-3os"/>
+                                            <constraint firstAttribute="bottom" secondItem="c1s-JY-hxa" secondAttribute="bottom" constant="39" id="2G5-pw-0Ye"/>
+                                            <constraint firstItem="jdM-D2-wwn" firstAttribute="leading" secondItem="Wog-7N-9m7" secondAttribute="leading" id="3hm-my-eeZ"/>
+                                            <constraint firstItem="QO7-D9-zSJ" firstAttribute="top" secondItem="33o-p7-Tqw" secondAttribute="bottom" constant="8" symbolic="YES" id="3iY-wR-FMH"/>
+                                            <constraint firstItem="26h-At-j5c" firstAttribute="top" secondItem="jdM-D2-wwn" secondAttribute="bottom" constant="8" symbolic="YES" id="4Uc-Qp-Lz1"/>
+                                            <constraint firstItem="fHh-jI-gSb" firstAttribute="centerX" secondItem="26h-At-j5c" secondAttribute="centerX" id="5sS-4b-6AN"/>
+                                            <constraint firstItem="HCd-vu-MHC" firstAttribute="leading" secondItem="eWo-cC-9Wj" secondAttribute="leading" id="6Zy-gd-I45"/>
+                                            <constraint firstItem="wua-C6-QdK" firstAttribute="centerX" secondItem="zuz-RQ-Km0" secondAttribute="centerX" id="6wL-Tc-kQ8"/>
+                                            <constraint firstItem="jdM-D2-wwn" firstAttribute="leading" secondItem="26h-At-j5c" secondAttribute="leading" id="8ER-Jc-hiN"/>
+                                            <constraint firstItem="HCd-vu-MHC" firstAttribute="leading" secondItem="zuz-RQ-Km0" secondAttribute="leading" id="CdZ-Gu-ngF"/>
+                                            <constraint firstItem="yx9-dd-yyh" firstAttribute="leading" secondItem="cgy-Jv-xpp" secondAttribute="leading" id="GI7-0F-EW8"/>
+                                            <constraint firstItem="yx9-dd-yyh" firstAttribute="top" secondItem="wua-C6-QdK" secondAttribute="bottom" constant="8" symbolic="YES" id="H8L-jZ-bas"/>
+                                            <constraint firstItem="c1s-JY-hxa" firstAttribute="top" secondItem="nSq-jv-MwT" secondAttribute="bottom" constant="17" id="Hyw-Ck-5uc"/>
+                                            <constraint firstItem="fHh-jI-gSb" firstAttribute="trailing" secondItem="33o-p7-Tqw" secondAttribute="trailing" id="IQ3-1j-3zx"/>
+                                            <constraint firstItem="26h-At-j5c" firstAttribute="trailing" secondItem="jdM-D2-wwn" secondAttribute="trailing" id="K25-0t-qH5"/>
+                                            <constraint firstItem="Wog-7N-9m7" firstAttribute="top" secondItem="eWo-cC-9Wj" secondAttribute="bottom" constant="8" symbolic="YES" id="KkJ-s5-9KT"/>
+                                            <constraint firstItem="Eh6-dh-HKB" firstAttribute="top" secondItem="26h-At-j5c" secondAttribute="bottom" constant="8" symbolic="YES" id="LDr-ld-IX1"/>
+                                            <constraint firstItem="nSq-jv-MwT" firstAttribute="trailing" secondItem="33o-p7-Tqw" secondAttribute="trailing" id="Lrm-m5-sUL"/>
+                                            <constraint firstItem="c1s-JY-hxa" firstAttribute="leading" secondItem="QO7-D9-zSJ" secondAttribute="leading" id="M9D-C2-UoG"/>
+                                            <constraint firstItem="nSq-jv-MwT" firstAttribute="top" secondItem="QO7-D9-zSJ" secondAttribute="bottom" constant="8" symbolic="YES" id="MGu-aq-evD"/>
+                                            <constraint firstItem="rlN-Vg-cv0" firstAttribute="top" secondItem="6y6-kz-mtK" secondAttribute="top" constant="44" id="Meh-1q-hv8"/>
+                                            <constraint firstItem="HCd-vu-MHC" firstAttribute="top" secondItem="zuz-RQ-Km0" secondAttribute="bottom" constant="8" symbolic="YES" id="ORO-Ia-ii2"/>
+                                            <constraint firstItem="rlN-Vg-cv0" firstAttribute="leading" secondItem="6y6-kz-mtK" secondAttribute="leading" constant="67" id="PVS-K5-4nm"/>
+                                            <constraint firstAttribute="height" constant="1400" id="Pmy-SQ-ciA"/>
+                                            <constraint firstItem="wua-C6-QdK" firstAttribute="leading" secondItem="yx9-dd-yyh" secondAttribute="leading" id="QIs-KG-ksc"/>
+                                            <constraint firstItem="eWo-cC-9Wj" firstAttribute="leading" secondItem="Wog-7N-9m7" secondAttribute="leading" id="S0F-1a-1nT"/>
+                                            <constraint firstItem="fHh-jI-gSb" firstAttribute="trailing" secondItem="cgy-Jv-xpp" secondAttribute="trailing" id="UH7-s0-26f"/>
+                                            <constraint firstItem="cgy-Jv-xpp" firstAttribute="top" secondItem="Wog-7N-9m7" secondAttribute="bottom" constant="8" symbolic="YES" id="ZQa-SH-0RH"/>
+                                            <constraint firstItem="wua-C6-QdK" firstAttribute="top" secondItem="rlN-Vg-cv0" secondAttribute="bottom" constant="8" symbolic="YES" id="aP5-II-Mrs"/>
+                                            <constraint firstItem="fHh-jI-gSb" firstAttribute="top" secondItem="Eh6-dh-HKB" secondAttribute="bottom" constant="8" symbolic="YES" id="aW6-kG-nGh"/>
+                                            <constraint firstItem="eWo-cC-9Wj" firstAttribute="top" secondItem="HCd-vu-MHC" secondAttribute="bottom" constant="8" symbolic="YES" id="adm-Nu-YpI"/>
+                                            <constraint firstItem="HCd-vu-MHC" firstAttribute="trailing" secondItem="6y6-kz-mtK" secondAttribute="trailingMargin" id="bCH-uS-9DA"/>
+                                            <constraint firstItem="nSq-jv-MwT" firstAttribute="leading" secondItem="33o-p7-Tqw" secondAttribute="leading" id="d4n-gU-Ieb"/>
+                                            <constraint firstItem="wua-C6-QdK" firstAttribute="trailing" secondItem="zuz-RQ-Km0" secondAttribute="trailing" id="dYW-vx-iFv"/>
+                                            <constraint firstItem="yx9-dd-yyh" firstAttribute="centerX" secondItem="rlN-Vg-cv0" secondAttribute="centerX" id="f9Q-Ks-D2G"/>
+                                            <constraint firstItem="Ict-yN-MMo" firstAttribute="leading" secondItem="QO7-D9-zSJ" secondAttribute="leading" id="hYB-6U-bJf"/>
+                                            <constraint firstItem="jdM-D2-wwn" firstAttribute="top" secondItem="cgy-Jv-xpp" secondAttribute="bottom" constant="8" symbolic="YES" id="haK-YE-cfb"/>
+                                            <constraint firstItem="yx9-dd-yyh" firstAttribute="trailing" secondItem="HCd-vu-MHC" secondAttribute="trailing" id="iBv-JU-6Qy"/>
+                                            <constraint firstItem="26h-At-j5c" firstAttribute="leading" secondItem="fHh-jI-gSb" secondAttribute="leading" id="iKb-BA-SXb"/>
+                                            <constraint firstItem="nSq-jv-MwT" firstAttribute="trailing" secondItem="c1s-JY-hxa" secondAttribute="trailing" id="nJy-iz-dbK"/>
+                                            <constraint firstItem="HCd-vu-MHC" firstAttribute="trailing" secondItem="cgy-Jv-xpp" secondAttribute="trailing" id="qdx-ee-5rq"/>
+                                            <constraint firstItem="33o-p7-Tqw" firstAttribute="top" secondItem="Ict-yN-MMo" secondAttribute="bottom" constant="8" symbolic="YES" id="ukJ-6D-W6U"/>
+                                            <constraint firstItem="nSq-jv-MwT" firstAttribute="leading" secondItem="6y6-kz-mtK" secondAttribute="leadingMargin" id="vJx-57-XXo"/>
+                                            <constraint firstItem="Eh6-dh-HKB" firstAttribute="leading" secondItem="cgy-Jv-xpp" secondAttribute="leading" id="vUa-wP-P0X"/>
+                                            <constraint firstItem="Ict-yN-MMo" firstAttribute="leading" secondItem="fHh-jI-gSb" secondAttribute="leading" id="xyv-bk-Miq"/>
+                                            <constraint firstItem="33o-p7-Tqw" firstAttribute="leading" secondItem="Eh6-dh-HKB" secondAttribute="leading" id="yTw-KH-8WS"/>
+                                            <constraint firstItem="Ict-yN-MMo" firstAttribute="top" secondItem="fHh-jI-gSb" secondAttribute="bottom" constant="8" symbolic="YES" id="zUE-On-06F"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1826,14 +2040,14 @@
                         </barButtonItem>
                     </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="700"/>
+                    <size key="freeformSize" width="375" height="1400"/>
                     <connections>
                         <outlet property="menuButton" destination="iCx-h6-PyD" id="pbE-3b-uke"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Suy-1I-IXU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1951.5" y="-1044.5"/>
+            <point key="canvasLocation" x="1951.5" y="-1045"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WEg-Yv-TX9">
@@ -2207,6 +2421,7 @@
     <resources>
         <image name="Back-20.png" width="20" height="20"/>
         <image name="Book_stack_Blue_on_white_RGB_large.jpg" width="1422" height="1593"/>
+        <image name="Chair_RGB_large.jpg" width="1736" height="1605"/>
         <image name="Menu Filled-20.png" width="20" height="20"/>
         <image name="header.jpg" width="250" height="162"/>
         <image name="pinkbuttonRecord.png" width="256" height="255"/>
