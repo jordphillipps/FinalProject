@@ -7,10 +7,16 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
+
+
 
 class ViewController6: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
+    
+    @IBOutlet var map: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +24,19 @@ class ViewController6: UIViewController {
             menuButton.target = revealViewController()
             menuButton.action = "revealToggle:"
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+            
+            var location = CLLocationCoordinate2DMake(50.16753, -5.09798)
+            var annotation = MKPointAnnotation()
+            
+            var span = MKCoordinateSpanMake(0.002, 0.002)
+            var region = MKCoordinateRegion(center: location, span: span)
+            
+            map.setRegion(region, animated: true)
+            
+            annotation.coordinate = location
+            annotation.title = "Carrick Mind"
+            
+            map.addAnnotation(annotation)
             
         }
     }
@@ -28,14 +47,6 @@ class ViewController6: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+   
 
 }

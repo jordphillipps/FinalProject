@@ -18,7 +18,7 @@
 		D155005F1CB914150023C9DF /* ViewControllerStress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D155005E1CB914150023C9DF /* ViewControllerStress.swift */; settings = {ASSET_TAGS = (); }; };
 		D15500611CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */; settings = {ASSET_TAGS = (); }; };
 		D16FBECF1CBA68F900973A6A /* ViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBECE1CBA68F900973A6A /* ViewController6.swift */; settings = {ASSET_TAGS = (); }; };
-		D16FBED11CBA690F00973A6A /* ViewController7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBED01CBA690F00973A6A /* ViewController7.swift */; settings = {ASSET_TAGS = (); }; };
+		D16FBED31CBA6F1A00973A6A /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16FBED21CBA6F1A00973A6A /* ItemTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		D1BA1A991CB2BED80033F32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A981CB2BED80033F32C /* AppDelegate.swift */; };
 		D1BA1A9E1CB2BED80033F32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1BA1A9C1CB2BED80033F32C /* Main.storyboard */; };
 		D1BA1AA11CB2BED80033F32C /* FinalProjectApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D1BA1A9F1CB2BED80033F32C /* FinalProjectApp.xcdatamodeld */; };
@@ -96,7 +96,7 @@
 		D155005E1CB914150023C9DF /* ViewControllerStress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerStress.swift; sourceTree = "<group>"; };
 		D15500601CB974F60023C9DF /* Book_stack_Blue_on_white_RGB_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Book_stack_Blue_on_white_RGB_large.jpg; sourceTree = "<group>"; };
 		D16FBECE1CBA68F900973A6A /* ViewController6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController6.swift; sourceTree = "<group>"; };
-		D16FBED01CBA690F00973A6A /* ViewController7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController7.swift; sourceTree = "<group>"; };
+		D16FBED21CBA6F1A00973A6A /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 		D1BA1A951CB2BED80033F32C /* FinalProjectApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProjectApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1BA1A981CB2BED80033F32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1BA1A9D1CB2BED80033F32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -158,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1BA1ADC1CB2BF2F0033F32C /* CoreLocation.framework in Frameworks */,
 				D1BA1AEA1CB2BFA50033F32C /* libsqlite3.tbd in Frameworks */,
 				D1BA1AE81CB2BF9C0033F32C /* libz.tbd in Frameworks */,
 				D1BA1AE61CB2BF930033F32C /* SystemConfiguration.framework in Frameworks */,
@@ -165,7 +166,6 @@
 				D1BA1AE21CB2BF610033F32C /* Security.framework in Frameworks */,
 				D1BA1AE01CB2BF560033F32C /* MobileCoreServices.framework in Frameworks */,
 				D1BA1ADE1CB2BF3D0033F32C /* QuartzCore.framework in Frameworks */,
-				D1BA1ADC1CB2BF2F0033F32C /* CoreLocation.framework in Frameworks */,
 				D1BA1ADA1CB2BF260033F32C /* CoreGraphics.framework in Frameworks */,
 				D1BA1AD81CB2BF1C0033F32C /* CFNetwork.framework in Frameworks */,
 				D1BA1AD61CB2BF130033F32C /* AudioToolbox.framework in Frameworks */,
@@ -237,8 +237,8 @@
 				D1BA1AEF1CB2C0FB0033F32C /* ViewController3.swift */,
 				D1BA1AF01CB2C0FB0033F32C /* ViewController4.swift */,
 				D1BA1AF11CB2C0FB0033F32C /* ViewController5.swift */,
+				D16FBED21CBA6F1A00973A6A /* ItemTableViewCell.swift */,
 				D16FBECE1CBA68F900973A6A /* ViewController6.swift */,
-				D16FBED01CBA690F00973A6A /* ViewController7.swift */,
 				D1BA1AA21CB2BED80033F32C /* Assets.xcassets */,
 				D1BA1A9C1CB2BED80033F32C /* Main.storyboard */,
 				D15500111CB52AD40023C9DF /* ViewControllerMood1.swift */,
@@ -476,9 +476,9 @@
 				D1BA1B161CB2C8C70033F32C /* NewNoteViewController.swift in Sources */,
 				D1BA1B0C1CB2C1980033F32C /* SWRevealViewController.m in Sources */,
 				D1BA1AF21CB2C0FB0033F32C /* ViewController.swift in Sources */,
+				D16FBED31CBA6F1A00973A6A /* ItemTableViewCell.swift in Sources */,
 				D1BA1A991CB2BED80033F32C /* AppDelegate.swift in Sources */,
 				D15500141CB53F8B0023C9DF /* ViewControllerMood2.swift in Sources */,
-				D16FBED11CBA690F00973A6A /* ViewController7.swift in Sources */,
 				D1BA1AA11CB2BED80033F32C /* FinalProjectApp.xcdatamodeld in Sources */,
 				D16FBECF1CBA68F900973A6A /* ViewController6.swift in Sources */,
 				D155005F1CB914150023C9DF /* ViewControllerStress.swift in Sources */,
